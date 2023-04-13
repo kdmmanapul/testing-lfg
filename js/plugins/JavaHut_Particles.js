@@ -424,7 +424,7 @@ JavaHut._forEach = JavaHut._forEach || function (data, cb) {
             xhr.onerror = function () {
                 DataManager._errorUrl = DataManager._errorUrl || url;
             };
-            xhr.send();
+            // xhr.send();
         } else {
             $.DataManager_loadDataFile.call(this, name, src);
         }
@@ -813,7 +813,7 @@ JavaHut._forEach = JavaHut._forEach || function (data, cb) {
                 $._particleUpdate(id, data[0], data[1], data[2], data[3]);
             });
         }
-        //·ÎÅ×ÀÌ¼Ç ±¸ÇöÇÏÀÚ µÈ´Ù < setup gen ÇÏ±âÀü¿¡ ÇØµµ µÇÁö¾Ê³ª
+        //ï¿½ï¿½ï¿½ï¿½ï¿½Ì¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½È´ï¿½ < setup gen ï¿½Ï±ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Øµï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ê³ï¿½
         //gen.updateEmitterData(data.name, "rotation", skill.radian * 180 / Math.PI + 90)
         skill.gen = gen;
     }
@@ -1418,7 +1418,7 @@ JavaHut._forEach = JavaHut._forEach || function (data, cb) {
         }*/
         //emitter.spawnPos.x -= (ctr.x - (follow.center.x - ($gameMap._displayX * tw)));
         //emitter.spawnPos.y -= (ctr.y - (follow.center.y - ($gameMap._displayY * tw)));
-		//ÆÈ·Î¿ö°¡ Á¡ÇÁÁßÀÌ¶ó¸é ½ºÆùÁö¿ªÀ» ´Ù½Ã ºÒ·¯¿Â´Ù. ½ºÆùÁö¿ªÀº screenX·Î ºÒ·¯¿Í¾ßÇÔ. ±× ÈÄ¿¡´Â ´Ù½Ã
+		//ï¿½È·Î¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì¶ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ù½ï¿½ ï¿½Ò·ï¿½ï¿½Â´ï¿½. ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ screenXï¿½ï¿½ ï¿½Ò·ï¿½ï¿½Í¾ï¿½ï¿½ï¿½. ï¿½ï¿½ ï¿½Ä¿ï¿½ï¿½ï¿½ ï¿½Ù½ï¿½
 		ctr.x = emitter._spawnX - ($gameMap._displayX * tw);
 		ctr.y = emitter._spawnY - ($gameMap._displayY * tw);
 		if (follow._event && follow._event._jumpCount) {
