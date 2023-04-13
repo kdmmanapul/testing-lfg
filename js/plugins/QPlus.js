@@ -394,26 +394,24 @@ function QPlus() {
       xhr.overrideMimeType('application/json');
     }
     xhr.onload = function() {
-      console.log(this, 'this xhr')
-      if (xhr.status < 400) {
-        var val = xhr.responseText;
+      if (this.status < 400) {
+        var val = this.responseText;
         if (type === 'json') val = JSON.parse(val);
-        xhr._onSuccess(val);
+        this._onSuccess(val);
       }
     }
     xhr.onError = function(func) {
-      xhr.onerror = func;
-      return xhr;
+      this.onerror = func;
+      return this;
     }
     xhr.onSuccess = function(func) {
-      xhr._onSuccess = func;
-      return xhr;
+      this._onSuccess = func;
+      return this;
     }
     xhr._onSuccess = callback || function() { };
     xhr.onerror = err || function() {
-      console.error('Error:' + xhr.url + ' not found');
+      console.error('Error:' + this.url + ' not found');
     }
-    console.log(xhr, 'xhr')
     xhr.send();
     return xhr;
   };

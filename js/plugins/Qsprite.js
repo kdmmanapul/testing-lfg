@@ -283,7 +283,7 @@ QSprite.json = null;
   var _USENEWADJUST = _PARAMS['Use New Adjust'];
   var _HASQMOVEMENT = Imported.Quasi_Movement || Imported.QMovement;
 
-  QPlus.request('data/QSprite.json')
+  QPlus.request('data/Qsprite.json')
     .onSuccess(function(data) {
       QSprite.json = data;
     })
