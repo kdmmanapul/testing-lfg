@@ -1,0 +1,1029 @@
+Date: Sat Feb 25 2023 23:42:53 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Boot
+Name: TypeError
+Message: Cannot read property 'expParams' of undefined
+Stack: TypeError: Cannot read property 'expParams' of undefined
+    at Game_Actor.expForLevel (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_objects.js:3526:19)
+    at Game_Actor.currentLevelExp (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_objects.js:3543:17)
+    at Game_Actor.initExp (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_objects.js:3535:37)
+    at Game_Actor.setup (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_objects.js:3441:10)
+    at Game_Actor.setup (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:4641:26)
+    at Game_Actor.setup (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/YEP_ItemCore.js:894:34)
+    at Game_Actor.setup (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/GALV_TimedMessagePopups.js:506:29)
+    at Game_Actor.setup (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/SkillTreesSystem.js:1574:37)
+    at Game_Actor.initialize (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_objects.js:3408:10)
+    at new Game_Actor (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_objects.js:3393:21)
+
+Date: Sat Feb 25 2023 23:45:49 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Boot
+Name: ReferenceError
+Message: PKD_MI is not defined
+Stack: ReferenceError: PKD_MI is not defined
+    at Game_Player.reserveTransfer (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/PRG_override.js:325:3)
+    at Function.DataManager.setupNewGame (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_managers.js:220:17)
+    at Function.DataManager.setupNewGame (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QPlus.js:759:36)
+    at Scene_Boot.start (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QPlus.js:833:25)
+    at Function.SceneManager.updateScene (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/DKTools.js:19048:33)
+    at Function.SceneManager.updateScene (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QPlus.js:750:36)
+    at Function.SceneManager.updateMain (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_managers.js:1983:18)
+    at Function.SceneManager.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_managers.js:1907:14)
+
+Date: Sat Feb 25 2023 23:45:49 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Boot
+Name: ReferenceError
+Message: PKD_MI is not defined
+Stack: ReferenceError: PKD_MI is not defined
+    at Game_Player.reserveTransfer (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/PRG_override.js:325:3)
+    at Function.DataManager.setupNewGame (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_managers.js:220:17)
+    at Function.DataManager.setupNewGame (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QPlus.js:759:36)
+    at Scene_Boot.start (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QPlus.js:833:25)
+    at Function.SceneManager.updateScene (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/DKTools.js:19058:29)
+    at Function.SceneManager.updateScene (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QPlus.js:750:36)
+    at Function.SceneManager.updateMain (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_managers.js:1983:18)
+    at Function.SceneManager.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_managers.js:1907:14)
+
+Date: Sat Feb 25 2023 23:46:43 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: this._spriteCooldown.bitmap.FillCircle is not a function
+Stack: TypeError: this._spriteCooldown.bitmap.FillCircle is not a function
+    at Sprite_SkillButton.createOverlayFrame (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS+Skillbar.js:528:35)
+    at Sprite_SkillButton.setup (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS+Skillbar.js:496:10)
+    at Sprite_SkillButton.initialize (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS+Skillbar.js:484:10)
+    at new Sprite_SkillButton (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS+Skillbar.js:94:19)
+    at Sprite_Skillbar.createKeys (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS+Skillbar.js:208:26)
+    at Sprite_Skillbar.initialize (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS+Skillbar.js:201:14)
+    at new Sprite_Skillbar (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS+Skillbar.js:90:19)
+    at Scene_Map.createABSKeys (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS+Skillbar.js:941:25)
+    at Scene_Map.createSpriteset (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS+Skillbar.js:937:10)
+    at Scene_Map.createSpriteset (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS+Gauges.js:434:40)
+
+Date: Sat Feb 25 2023 23:46:43 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: Cannot read property 'open' of undefined
+Stack: TypeError: Cannot read property 'open' of undefined
+    at Scene_Map.start (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_scenes.js:579:29)
+    at Function.SceneManager.updateScene (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/DKTools.js:19058:29)
+    at Function.SceneManager.updateScene (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QPlus.js:750:36)
+    at Function.SceneManager.updateMain (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_managers.js:1983:18)
+    at Function.SceneManager.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_managers.js:1907:14)
+
+Date: Sat Feb 25 2023 23:47:45 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: this._spriteCooldown.bitmap.FillCircle is not a function
+Stack: TypeError: this._spriteCooldown.bitmap.FillCircle is not a function
+    at Sprite_SkillButton.createOverlayFrame (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS+Skillbar.js:528:35)
+    at Sprite_SkillButton.setup (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS+Skillbar.js:496:10)
+    at Sprite_SkillButton.initialize (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS+Skillbar.js:484:10)
+    at new Sprite_SkillButton (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS+Skillbar.js:94:19)
+    at Sprite_Skillbar.createKeys (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS+Skillbar.js:208:26)
+    at Sprite_Skillbar.initialize (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS+Skillbar.js:201:14)
+    at new Sprite_Skillbar (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS+Skillbar.js:90:19)
+    at Scene_Map.createABSKeys (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS+Skillbar.js:941:25)
+    at Scene_Map.createSpriteset (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS+Skillbar.js:937:10)
+    at Scene_Map.createSpriteset (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS+Gauges.js:434:40)
+
+Date: Sat Feb 25 2023 23:47:45 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: Cannot read property 'open' of undefined
+Stack: TypeError: Cannot read property 'open' of undefined
+    at Scene_Map.start (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_scenes.js:579:29)
+    at Scene_Map.start (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/PRG_override.js:858:21)
+    at Function.SceneManager.updateScene (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/DKTools.js:19058:29)
+    at Function.SceneManager.updateScene (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QPlus.js:750:36)
+    at Function.SceneManager.updateMain (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_managers.js:1983:18)
+    at Function.SceneManager.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_managers.js:1907:14)
+
+Date: Sat Feb 25 2023 23:48:48 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: this.updateTKMfilters is not a function
+Stack: TypeError: this.updateTKMfilters is not a function
+    at Scene_Map.updateMain (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/PRG_override.js:881:8)
+    at Scene_Map.updateMain (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QMovement.js:4115:36)
+    at Scene_Map.updateMainMultiply (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/PRG_override.js:886:14)
+    at Scene_Map.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_scenes.js:589:10)
+    at Scene_Map.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QPlus.js:848:28)
+    at Function.SceneManager.updateScene (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/DKTools.js:19066:25)
+    at Function.SceneManager.updateScene (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QPlus.js:750:36)
+    at Function.SceneManager.updateMain (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_managers.js:1983:18)
+    at Function.SceneManager.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_managers.js:1907:14)
+
+Date: Sat Feb 25 2023 23:49:37 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: this.battler(...).damageAllWeaponDurability is not a function
+Stack: TypeError: this.battler(...).damageAllWeaponDurability is not a function
+    at Game_Player.useSkill (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:6003:24)
+    at Game_Player.updateABSInput (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5913:14)
+    at Game_Player.updateABS (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5505:9)
+    at Game_Player.Game_CharacterBase.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5145:55)
+    at Game_Player.Game_CharacterBase.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/Qsprite.js:429:37)
+    at Game_Player.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QMovement.js:3760:37)
+    at Game_Player.into.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QPlus.js:473:32)
+    at Scene_Map.updateMain (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_scenes.js:609:17)
+    at Scene_Map.updateMain (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/PRG_override.js:880:25)
+    at Scene_Map.updateMain (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QMovement.js:4115:36)
+
+Date: Sat Feb 25 2023 23:50:23 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: ReferenceError
+Message: Rumble is not defined
+Stack: ReferenceError: Rumble is not defined
+    at Skill_Sequencer.startRumble (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:1826:3)
+    at Skill_Sequencer.startAction (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:1544:10)
+    at Skill_Sequencer.updateSequence (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3765:9)
+    at Skill_Sequencer.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3738:9)
+    at Game_Player.Game_CharacterBase.updateSkillSequence (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5178:36)
+    at Game_Player.Game_CharacterBase.updateSkills (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5167:9)
+    at Game_Player.Game_CharacterBase.updateABS (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5149:8)
+    at Game_Player.updateABS (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5666:42)
+    at Game_Player.Game_CharacterBase.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5145:55)
+    at Game_Player.Game_CharacterBase.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/Qsprite.js:429:37)
+
+Date: Sat Feb 25 2023 23:51:07 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: Cannot read property 'length' of undefined
+Stack: TypeError: Cannot read property 'length' of undefined
+    at Skill_Sequencer.particleOn (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:1890:53)
+    at Skill_Sequencer.startAction (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:1532:10)
+    at Skill_Sequencer.updateSequence (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3765:9)
+    at Skill_Sequencer.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3738:9)
+    at Game_Player.Game_CharacterBase.updateSkillSequence (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5178:36)
+    at Game_Player.Game_CharacterBase.updateSkills (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5167:9)
+    at Game_Player.Game_CharacterBase.updateABS (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5149:8)
+    at Game_Player.updateABS (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5666:42)
+    at Game_Player.Game_CharacterBase.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5145:55)
+    at Game_Player.Game_CharacterBase.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/Qsprite.js:429:37)
+
+Date: Sat Feb 25 2023 23:52:16 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: Cannot read property 'default' of undefined
+Stack: TypeError: Cannot read property 'default' of undefined
+    at Object.JavaHut.particleOn (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/JavaHut_Particles.js:841:29)
+    at Skill_Sequencer.particleOn (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:1893:11)
+    at Skill_Sequencer.startAction (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:1532:10)
+    at Skill_Sequencer.updateSequence (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3765:9)
+    at Skill_Sequencer.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3738:9)
+    at Game_Player.Game_CharacterBase.updateSkillSequence (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5178:36)
+    at Game_Player.Game_CharacterBase.updateSkills (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5167:9)
+    at Game_Player.Game_CharacterBase.updateABS (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5149:8)
+    at Game_Player.updateABS (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5666:42)
+    at Game_Player.Game_CharacterBase.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5145:55)
+
+Date: Sat Feb 25 2023 23:52:16 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: undefined
+Message: Uncaught TypeError: PIXI.particles.Emitter is not a constructor
+Filename: chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/JavaHut_Particles.js
+Stack: undefined
+
+Date: Sat Feb 25 2023 23:53:17 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: Cannot read property 'default' of undefined
+Stack: TypeError: Cannot read property 'default' of undefined
+    at Object.JavaHut.particleOn (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/JavaHut_Particles.js:841:29)
+    at Skill_Sequencer.particleOn (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:1893:11)
+    at Skill_Sequencer.startAction (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:1532:10)
+    at Skill_Sequencer.updateSequence (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3765:9)
+    at Skill_Sequencer.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3738:9)
+    at Game_Player.Game_CharacterBase.updateSkillSequence (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5178:36)
+    at Game_Player.Game_CharacterBase.updateSkills (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5167:9)
+    at Game_Player.Game_CharacterBase.updateABS (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5149:8)
+    at Game_Player.updateABS (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5666:42)
+    at Game_Player.Game_CharacterBase.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5145:55)
+
+Date: Sat Feb 25 2023 23:53:17 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: undefined
+Message: Uncaught TypeError: PIXI.particles.Emitter is not a constructor
+Filename: chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/JavaHut_Particles.js
+Stack: undefined
+
+Date: Sat Feb 25 2023 23:54:14 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: Cannot read property 'default' of undefined
+Stack: TypeError: Cannot read property 'default' of undefined
+    at Object.JavaHut.particleOn (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/JavaHut_Particles.js:841:29)
+    at Skill_Sequencer.particleOn (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:1893:11)
+    at Skill_Sequencer.startAction (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:1532:10)
+    at Skill_Sequencer.updateSequence (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3765:9)
+    at Skill_Sequencer.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3738:9)
+    at Game_Player.Game_CharacterBase.updateSkillSequence (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5178:36)
+    at Game_Player.Game_CharacterBase.updateSkills (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5167:9)
+    at Game_Player.Game_CharacterBase.updateABS (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5149:8)
+    at Game_Player.updateABS (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5666:42)
+    at Game_Player.Game_CharacterBase.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5145:55)
+
+Date: Sat Feb 25 2023 23:54:14 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: undefined
+Message: Uncaught TypeError: PIXI.particles.Emitter is not a constructor
+Filename: chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/JavaHut_Particles.js
+Stack: undefined
+
+Date: Sat Feb 25 2023 23:55:43 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: Cannot read property 'default' of undefined
+Stack: TypeError: Cannot read property 'default' of undefined
+    at Object.JavaHut.particleOn (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/JavaHut_Particles.js:841:29)
+    at Skill_Sequencer.particleOn (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:1893:11)
+    at Skill_Sequencer.startAction (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:1532:10)
+    at Skill_Sequencer.updateSequence (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3765:9)
+    at Skill_Sequencer.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3738:9)
+    at Game_Player.Game_CharacterBase.updateSkillSequence (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5178:36)
+    at Game_Player.Game_CharacterBase.updateSkills (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5167:9)
+    at Game_Player.Game_CharacterBase.updateABS (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5149:8)
+    at Game_Player.updateABS (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5666:42)
+    at Game_Player.Game_CharacterBase.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5145:55)
+
+Date: Sat Feb 25 2023 23:55:43 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: undefined
+Message: Uncaught TypeError: PIXI.particles.Emitter is not a constructor
+Filename: chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/JavaHut_Particles.js
+Stack: undefined
+
+Date: Sat Feb 25 2023 23:58:30 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: Cannot read property 'default' of undefined
+Stack: TypeError: Cannot read property 'default' of undefined
+    at Object.JavaHut.particleOn (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/JavaHut_Particles.js:841:29)
+    at Skill_Sequencer.particleOn (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:1893:11)
+    at Skill_Sequencer.startAction (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:1532:10)
+    at Skill_Sequencer.updateSequence (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3765:9)
+    at Skill_Sequencer.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3738:9)
+    at Game_Player.Game_CharacterBase.updateSkillSequence (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5178:36)
+    at Game_Player.Game_CharacterBase.updateSkills (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5167:9)
+    at Game_Player.Game_CharacterBase.updateABS (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5149:8)
+    at Game_Player.updateABS (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5666:42)
+    at Game_Player.Game_CharacterBase.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5145:55)
+
+Date: Sat Feb 25 2023 23:58:30 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: undefined
+Message: Uncaught TypeError: PIXI.particles.Emitter is not a constructor
+Filename: chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/JavaHut_Particles.js
+Stack: undefined
+
+Date: Sun Feb 26 2023 00:00:35 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: Cannot read property 'default' of undefined
+Stack: TypeError: Cannot read property 'default' of undefined
+    at Object.JavaHut.particleOn (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/JavaHut_Particles.js:841:29)
+    at Skill_Sequencer.particleOn (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:1893:11)
+    at Skill_Sequencer.startAction (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:1532:10)
+    at Skill_Sequencer.updateSequence (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3765:9)
+    at Skill_Sequencer.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3738:9)
+    at Game_Player.Game_CharacterBase.updateSkillSequence (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5178:36)
+    at Game_Player.Game_CharacterBase.updateSkills (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5167:9)
+    at Game_Player.Game_CharacterBase.updateABS (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5149:8)
+    at Game_Player.updateABS (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5666:42)
+    at Game_Player.Game_CharacterBase.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5145:55)
+
+Date: Sun Feb 26 2023 00:03:47 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: Cannot read property 'default' of undefined
+Stack: TypeError: Cannot read property 'default' of undefined
+    at Object.JavaHut.particleOn (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/JavaHut_Particles.js:841:29)
+    at Skill_Sequencer.particleOn (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:1893:11)
+    at Skill_Sequencer.startAction (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:1532:10)
+    at Skill_Sequencer.updateSequence (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3765:9)
+    at Skill_Sequencer.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3738:9)
+    at Game_Player.Game_CharacterBase.updateSkillSequence (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5178:36)
+    at Game_Player.Game_CharacterBase.updateSkills (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5167:9)
+    at Game_Player.Game_CharacterBase.updateABS (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5149:8)
+    at Game_Player.updateABS (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5666:42)
+    at Game_Player.Game_CharacterBase.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5145:55)
+
+Date: Sun Feb 26 2023 00:04:12 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: Cannot read property 'default' of undefined
+Stack: TypeError: Cannot read property 'default' of undefined
+    at Object.JavaHut.particleOn (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/JavaHut_Particles.js:842:29)
+    at Skill_Sequencer.particleOn (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:1893:11)
+    at Skill_Sequencer.startAction (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:1532:10)
+    at Skill_Sequencer.updateSequence (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3765:9)
+    at Skill_Sequencer.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3738:9)
+    at Game_Player.Game_CharacterBase.updateSkillSequence (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5178:36)
+    at Game_Player.Game_CharacterBase.updateSkills (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5167:9)
+    at Game_Player.Game_CharacterBase.updateABS (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5149:8)
+    at Game_Player.updateABS (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5666:42)
+    at Game_Player.Game_CharacterBase.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5145:55)
+
+Date: Sun Feb 26 2023 00:04:32 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: Cannot read property 'default' of undefined
+Stack: TypeError: Cannot read property 'default' of undefined
+    at Object.JavaHut.particleOn (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/JavaHut_Particles.js:842:29)
+    at Skill_Sequencer.particleOn (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:1893:11)
+    at Skill_Sequencer.startAction (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:1532:10)
+    at Skill_Sequencer.updateSequence (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3765:9)
+    at Skill_Sequencer.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3738:9)
+    at Game_Player.Game_CharacterBase.updateSkillSequence (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5178:36)
+    at Game_Player.Game_CharacterBase.updateSkills (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5167:9)
+    at Game_Player.Game_CharacterBase.updateABS (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5149:8)
+    at Game_Player.updateABS (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5666:42)
+    at Game_Player.Game_CharacterBase.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5145:55)
+
+Date: Sun Feb 26 2023 00:07:03 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: Cannot read property 'default' of undefined
+Stack: TypeError: Cannot read property 'default' of undefined
+    at Object.JavaHut.particleOn (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/JavaHut_Particles.js:842:29)
+    at Skill_Sequencer.particleOn (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:1893:11)
+    at Skill_Sequencer.startAction (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:1532:10)
+    at Skill_Sequencer.updateSequence (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3765:9)
+    at Skill_Sequencer.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3738:9)
+    at Game_Player.Game_CharacterBase.updateSkillSequence (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5178:36)
+    at Game_Player.Game_CharacterBase.updateSkills (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5167:9)
+    at Game_Player.Game_CharacterBase.updateABS (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5149:8)
+    at Game_Player.updateABS (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5666:42)
+    at Game_Player.Game_CharacterBase.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5145:55)
+
+Date: Sun Feb 26 2023 00:07:37 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: Cannot read property 'default' of undefined
+Stack: TypeError: Cannot read property 'default' of undefined
+    at Object.JavaHut.particleOn (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/JavaHut_Particles.js:842:29)
+    at Skill_Sequencer.particleOn (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:1893:11)
+    at Skill_Sequencer.startAction (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:1532:10)
+    at Skill_Sequencer.updateSequence (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3765:9)
+    at Skill_Sequencer.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3738:9)
+    at Game_Player.Game_CharacterBase.updateSkillSequence (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5178:36)
+    at Game_Player.Game_CharacterBase.updateSkills (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5167:9)
+    at Game_Player.Game_CharacterBase.updateABS (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5149:8)
+    at Game_Player.updateABS (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5666:42)
+    at Game_Player.Game_CharacterBase.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5145:55)
+
+Date: Sun Feb 26 2023 00:16:15 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: Cannot read property 'default' of undefined
+Stack: TypeError: Cannot read property 'default' of undefined
+    at Object.JavaHut.particleOn (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/JavaHut_Particles.js:841:29)
+    at Skill_Sequencer.particleOn (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:1893:11)
+    at Skill_Sequencer.startAction (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:1532:10)
+    at Skill_Sequencer.updateSequence (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3765:9)
+    at Skill_Sequencer.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3738:9)
+    at Game_Player.Game_CharacterBase.updateSkillSequence (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5178:36)
+    at Game_Player.Game_CharacterBase.updateSkills (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5167:9)
+    at Game_Player.Game_CharacterBase.updateABS (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5149:8)
+    at Game_Player.updateABS (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5666:42)
+    at Game_Player.Game_CharacterBase.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5145:55)
+
+Date: Sun Feb 26 2023 00:18:34 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: Cannot set property '0' of undefined
+Stack: TypeError: Cannot set property '0' of undefined
+    at Skill_Sequencer.targetShiver (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3171:29)
+    at Skill_Sequencer.startOnDamageTargetAction (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:1767:10)
+    at Skill_Sequencer.startOnDamageAction (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:1709:10)
+    at Skill_Sequencer.updateSkillDamage (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3800:9)
+    at Skill_Sequencer.<anonymous> (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3316:13)
+    at Function.ColliderManager.getAllNear (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QMovement.js:1620:25)
+    at Skill_Sequencer.canSkillMove (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3299:20)
+    at Skill_Sequencer.updateSkillPosition (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3893:14)
+    at Skill_Sequencer.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3717:9)
+    at Game_Player.Game_CharacterBase.updateSkillSequence (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5178:36)
+
+Date: Sun Feb 26 2023 00:29:44 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: Cannot set property '0' of undefined
+Stack: TypeError: Cannot set property '0' of undefined
+    at Skill_Sequencer.targetShiver (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3171:29)
+    at Skill_Sequencer.startOnDamageTargetAction (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:1767:10)
+    at Skill_Sequencer.startOnDamageAction (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:1709:10)
+    at Skill_Sequencer.updateSkillDamage (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3800:9)
+    at Skill_Sequencer.<anonymous> (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3316:13)
+    at Function.ColliderManager.getAllNear (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QMovement.js:1620:25)
+    at Skill_Sequencer.canSkillMove (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3299:20)
+    at Skill_Sequencer.updateSkillPosition (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3893:14)
+    at Skill_Sequencer.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:3717:9)
+    at Game_Player.Game_CharacterBase.updateSkillSequence (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5178:36)
+
+Date: Sun Feb 26 2023 00:32:13 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Boot
+Name: ReferenceError
+Message: $cgmv is not defined
+Stack: ReferenceError: $cgmv is not defined
+    at Game_Actor.learnSkill (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/MrTS_SimpleSkillLeveling.js:69:9)
+    at Game_Actor.<anonymous> (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_objects.js:3566:18)
+    at Array.forEach (<anonymous>)
+    at Game_Actor.initSkills (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_objects.js:3564:35)
+    at Game_Actor.setup (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_objects.js:3442:10)
+    at Game_Actor.setup (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:4641:26)
+    at Game_Actor.setup (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/GALV_TimedMessagePopups.js:506:29)
+    at Game_Actor.initialize (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_objects.js:3408:10)
+    at new Game_Actor (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_objects.js:3393:21)
+    at Game_Actors.actor (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_objects.js:4587:35)
+
+Date: Sun Feb 26 2023 00:32:13 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Boot
+Name: ReferenceError
+Message: $cgmv is not defined
+Stack: ReferenceError: $cgmv is not defined
+    at Game_Actor.learnSkill (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/MrTS_SimpleSkillLeveling.js:69:9)
+    at Game_Actor.<anonymous> (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_objects.js:3566:18)
+    at Array.forEach (<anonymous>)
+    at Game_Actor.initSkills (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_objects.js:3564:35)
+    at Game_Actor.setup (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_objects.js:3442:10)
+    at Game_Actor.setup (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:4641:26)
+    at Game_Actor.setup (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/GALV_TimedMessagePopups.js:506:29)
+    at Game_Actor.initialize (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_objects.js:3408:10)
+    at new Game_Actor (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_objects.js:3393:21)
+    at Game_Actors.actor (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_objects.js:4587:35)
+
+Date: Sun Feb 26 2023 00:46:35 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: Cannot set property 'enabled' of undefined
+Stack: TypeError: Cannot set property 'enabled' of undefined
+    at Filter_Controller.updateFilter (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/FilterController.js:987:24)
+    at Scene_Map.<anonymous> (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/FilterController.js:1467:16)
+    at Map.forEach (<anonymous>)
+    at Scene_Map.updateTKMfilters (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/FilterController.js:1451:32)
+    at Scene_Map.updateMain (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/PRG_override.js:881:8)
+    at Scene_Map.updateMain (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QMovement.js:4115:36)
+    at Scene_Map.updateMain (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/FilterController.js:1446:31)
+    at Scene_Map.updateMainMultiply (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/PRG_override.js:886:14)
+    at Scene_Map.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_scenes.js:589:10)
+    at Scene_Map.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QPlus.js:848:28)
+
+Date: Sun Feb 26 2023 00:47:12 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: DataManager.getGlobalVar is not a function
+Stack: TypeError: DataManager.getGlobalVar is not a function
+    at VariableHud.createSprites (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/MOG_VariableHud.js:2177:31)
+    at VariableHud.initialize (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/MOG_VariableHud.js:2113:30)
+    at new VariableHud (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/MOG_VariableHud.js:2099:21)
+    at Scene_Map.createVariableHuds (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/MOG_VariableHud.js:2089:26)
+    at Scene_Map.createSpriteset (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/MOG_VariableHud.js:2065:7)
+    at Scene_Map.createDisplayObjects (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_scenes.js:727:10)
+    at Scene_Map.onMapLoaded (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_scenes.js:571:10)
+    at Scene_Map.isReady (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_scenes.js:561:14)
+    at Scene_Map.isReady (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/DKTools.js:19280:38)
+    at Function.SceneManager.updateScene (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/DKTools.js:19047:33)
+
+Date: Sun Feb 26 2023 00:47:12 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: Cannot read property 'open' of undefined
+Stack: TypeError: Cannot read property 'open' of undefined
+    at Scene_Map.start (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_scenes.js:579:29)
+    at Scene_Map.start (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/PRG_override.js:858:21)
+    at Scene_Map.start (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/VE_LoopAnimation.js:743:36)
+    at Function.SceneManager.updateScene (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/DKTools.js:19058:29)
+    at Function.SceneManager.updateScene (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QPlus.js:750:36)
+    at Function.SceneManager.updateMain (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_managers.js:1983:18)
+    at Function.SceneManager.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_managers.js:1907:14)
+
+Date: Sun Feb 26 2023 00:47:40 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: Cannot set property 'enabled' of undefined
+Stack: TypeError: Cannot set property 'enabled' of undefined
+    at Filter_Controller.updateFilter (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/FilterController.js:987:24)
+    at Scene_Map.<anonymous> (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/FilterController.js:1467:16)
+    at Map.forEach (<anonymous>)
+    at Scene_Map.updateTKMfilters (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/FilterController.js:1451:32)
+    at Scene_Map.updateMain (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/PRG_override.js:881:8)
+    at Scene_Map.updateMain (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QMovement.js:4115:36)
+    at Scene_Map.updateMain (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/FilterController.js:1446:31)
+    at Scene_Map.updateMainMultiply (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/PRG_override.js:886:14)
+    at Scene_Map.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_scenes.js:589:10)
+    at Scene_Map.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QPlus.js:848:28)
+
+Date: Sun Feb 26 2023 00:48:09 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: Cannot set property 'enabled' of undefined
+Stack: TypeError: Cannot set property 'enabled' of undefined
+    at Filter_Controller.updateFilter (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/FilterController.js:987:24)
+    at Scene_Map.<anonymous> (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/FilterController.js:1467:16)
+    at Map.forEach (<anonymous>)
+    at Scene_Map.updateTKMfilters (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/FilterController.js:1451:32)
+    at Scene_Map.updateMain (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/PRG_override.js:881:8)
+    at Scene_Map.updateMain (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QMovement.js:4115:36)
+    at Scene_Map.updateMain (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/FilterController.js:1446:31)
+    at Scene_Map.updateMainMultiply (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/PRG_override.js:886:14)
+    at Scene_Map.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_scenes.js:589:10)
+    at Scene_Map.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QPlus.js:848:28)
+
+Date: Sun Feb 26 2023 01:09:13 GMT+0800 (Malay Peninsula Standard Time)
+Name: undefined
+Message: Uncaught TypeError: Cannot read property 'console' of undefined
+Filename: chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QPlus.js
+Stack: undefined
+
+Date: Sun Feb 26 2023 01:11:16 GMT+0800 (Malay Peninsula Standard Time)
+Name: undefined
+Message: Uncaught TypeError: Cannot read property 'console' of undefined
+Filename: chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QPlus.js
+Stack: undefined
+
+Date: Sun Feb 26 2023 01:11:32 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Boot
+Name: TypeError
+Message: Cannot read property 'push' of undefined
+Stack: TypeError: Cannot read property 'push' of undefined
+    at Game_Party.gainIndependentItem (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/YEP_ItemCore.js:1096:29)
+    at Game_Party._.gainIndependentItem (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/PKD_MapInventory.js:2474:36)
+    at Game_Actor.equipInitIndependentEquips (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/YEP_ItemCore.js:935:32)
+    at Game_Actor.initIndependentEquips (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/YEP_ItemCore.js:901:10)
+    at Game_Actor.setup (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/YEP_ItemCore.js:896:10)
+    at Game_Actor.initialize (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_objects.js:3408:10)
+    at new Game_Actor (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_objects.js:3393:21)
+    at Game_Actors.actor (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_objects.js:4587:35)
+    at Game_Party.<anonymous> (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_objects.js:4871:25)
+    at Array.forEach (<anonymous>)
+
+Date: Sun Feb 26 2023 01:14:39 GMT+0800 (Malay Peninsula Standard Time)
+Name: undefined
+Message: Uncaught TypeError: Cannot read property 'console' of undefined
+Filename: chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QPlus.js
+Stack: undefined
+
+Date: Sun Feb 26 2023 01:15:02 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: Input.preferGamepad is not a function
+Stack: TypeError: Input.preferGamepad is not a function
+    at Sprite_TMRingCommand.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/TMRingCommand.js:595:19)
+    at chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_core.js:4068:19
+    at Array.forEach (<anonymous>)
+    at Spriteset_Map.Sprite.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_core.js:4066:19)
+    at Spriteset_Map.Sprite.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/Olivia_HorrorEffects.js:983:46)
+    at Spriteset_Map.Sprite.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/PD_TweenAnimation.js:131:18)
+    at Spriteset_Map.Spriteset_Base.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_sprites.js:2145:29)
+    at Spriteset_Map.Spriteset_Base.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/MOG_AnimatedText.js:154:34)
+    at Spriteset_Map.Spriteset_Base.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/MOG_PixiFilters.js:279:39)
+    at Spriteset_Map.Spriteset_Base.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/MOG_Weather_EX.js:506:37)
+
+Date: Sun Feb 26 2023 01:15:02 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: undefined
+Message: Uncaught TypeError: Cannot read property 'console' of undefined
+Filename: chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QPlus.js
+Stack: undefined
+
+Date: Sun Feb 26 2023 01:15:16 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: undefined
+Message: Uncaught TypeError: Cannot read property 'console' of undefined
+Filename: chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QPlus.js
+Stack: undefined
+
+Date: Sun Feb 26 2023 14:49:49 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: Cannot read property 'poses' of null
+Stack: TypeError: Cannot read property 'poses' of null
+    at Game_Player.Game_CharacterBase.getAvailableIdlePoses (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/Qsprite.js:611:35)
+    at Game_Player.Game_CharacterBase.setImage (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/Qsprite.js:602:10)
+    at Game_Player.refresh (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_objects.js:7440:10)
+    at Game_Player.refresh (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/Olivia_HorrorEffects.js:892:52)
+    at Game_Player.refresh (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QMovement.js:3539:31)
+    at Game_Player.refresh (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5274:29)
+    at Game_Player.refresh (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/YEP_AutoPassiveStates.js:653:36)
+    at Game_Player.performTransfer (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_objects.js:7484:14)
+    at Game_Player.performTransfer (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/QABS.js:5351:37)
+    at Scene_Map.onMapLoaded (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_scenes.js:569:21)
+
+Date: Tue Feb 28 2023 15:08:00 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Boot
+Name: TypeError
+Message: Cannot read property 'push' of undefined
+Stack: TypeError: Cannot read property 'push' of undefined
+    at Game_Party.gainIndependentItem (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/YEP_ItemCore.js:1096:33)
+    at Game_Party._.gainIndependentItem (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/PKD_MapInventory.js:2469:36)
+    at Game_Actor.equipInitIndependentEquips (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/YEP_ItemCore.js:935:32)
+    at Game_Actor.initIndependentEquips (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/YEP_ItemCore.js:901:10)
+    at Game_Actor.setup (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/YEP_ItemCore.js:896:10)
+    at Game_Actor.initialize (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:3408:10)
+    at new Game_Actor (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:3393:21)
+    at Game_Actors.actor (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:4587:35)
+    at Game_Party.<anonymous> (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:4871:25)
+    at Array.forEach (<anonymous>)
+
+Date: Tue Feb 28 2023 15:44:50 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Boot
+Name: TypeError
+Message: Cannot read property 'indexOf' of undefined
+Stack: TypeError: Cannot read property 'indexOf' of undefined
+    at Game_Actor.changeEquip (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/PRG_override.js:394:45)
+    at Game_Actor.changeEquip (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QABS.js:4593:40)
+    at Game_Actor.equipInitIndependentEquips (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/YEP_ItemCore.js:938:16)
+    at Game_Actor.initIndependentEquips (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/YEP_ItemCore.js:901:10)
+    at Game_Actor.setup (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/YEP_ItemCore.js:896:10)
+    at Game_Actor.initialize (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:3408:10)
+    at new Game_Actor (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:3393:21)
+    at Game_Actors.actor (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:4587:35)
+    at Game_Party.<anonymous> (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:4871:25)
+    at Array.forEach (<anonymous>)
+
+Date: Tue Feb 28 2023 15:45:18 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Boot
+Name: TypeError
+Message: Cannot read property 'push' of undefined
+Stack: TypeError: Cannot read property 'push' of undefined
+    at Game_Party.gainIndependentItem (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/YEP_ItemCore.js:1096:33)
+    at Game_Party._.gainIndependentItem (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/PKD_MapInventory.js:2469:36)
+    at Game_Actor.equipInitIndependentEquips (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/YEP_ItemCore.js:935:32)
+    at Game_Actor.initIndependentEquips (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/YEP_ItemCore.js:901:10)
+    at Game_Actor.setup (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/YEP_ItemCore.js:896:10)
+    at Game_Actor.initialize (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:3408:10)
+    at new Game_Actor (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:3393:21)
+    at Game_Actors.actor (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:4587:35)
+    at Game_Party.<anonymous> (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:4871:25)
+    at Array.forEach (<anonymous>)
+
+Date: Thu Mar 02 2023 22:17:19 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: Cannot read property '_anchor' of null
+Stack: TypeError: Cannot read property '_anchor' of null
+    at Sprite_Character.updateBitmap (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/Qsprite.js:767:15)
+    at Sprite_Character.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_sprites.js:213:10)
+    at Sprite_Character.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QABS.js:7160:33)
+    at Sprite_Character.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/SAN_ResidualSprites.js:364:30)
+    at Sprite_Character.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/MOG_CharacterMotion.js:427:20)
+    at Sprite_Character.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/MOG_CharParticles.js:188:27)
+    at chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_core.js:4708:19
+    at Array.forEach (<anonymous>)
+    at ShaderTilemap.Tilemap.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_core.js:4706:19)
+    at chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_core.js:4068:19
+
+Date: Thu Mar 02 2023 22:18:04 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: Cannot set property 'anchorY' of null
+Stack: TypeError: Cannot set property 'anchorY' of null
+    at Sprite_Character.updateBitmap (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/Qsprite.js:767:23)
+    at Sprite_Character.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_sprites.js:213:10)
+    at Sprite_Character.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QABS.js:7160:33)
+    at Sprite_Character.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/SAN_ResidualSprites.js:364:30)
+    at Sprite_Character.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/MOG_CharacterMotion.js:427:20)
+    at Sprite_Character.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/MOG_CharParticles.js:188:27)
+    at chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_core.js:4708:19
+    at Array.forEach (<anonymous>)
+    at ShaderTilemap.Tilemap.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_core.js:4706:19)
+    at chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_core.js:4068:19
+
+Date: Thu Mar 02 2023 22:18:37 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: Cannot read property 'anchorY' of null
+Stack: TypeError: Cannot read property 'anchorY' of null
+    at Sprite_Character.updateBitmap (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/Qsprite.js:767:44)
+    at Sprite_Character.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_sprites.js:213:10)
+    at Sprite_Character.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QABS.js:7160:33)
+    at Sprite_Character.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/SAN_ResidualSprites.js:364:30)
+    at Sprite_Character.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/MOG_CharacterMotion.js:427:20)
+    at Sprite_Character.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/MOG_CharParticles.js:188:27)
+    at chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_core.js:4708:19
+    at Array.forEach (<anonymous>)
+    at ShaderTilemap.Tilemap.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_core.js:4706:19)
+    at chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_core.js:4068:19
+
+Date: Thu Mar 02 2023 22:53:32 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: Cannot set property 'anchorY' of null
+Stack: TypeError: Cannot set property 'anchorY' of null
+    at Sprite_Character.updateBitmap (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/Qsprite.js:763:23)
+    at Sprite_Character.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_sprites.js:213:10)
+    at Sprite_Character.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QABS.js:7162:33)
+    at Sprite_Character.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/SAN_ResidualSprites.js:364:30)
+    at Sprite_Character.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/MOG_CharacterMotion.js:427:20)
+    at Sprite_Character.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/MOG_CharParticles.js:188:27)
+    at chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_core.js:4708:19
+    at Array.forEach (<anonymous>)
+    at ShaderTilemap.Tilemap.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_core.js:4706:19)
+    at chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_core.js:4068:19
+
+Date: Sun Mar 05 2023 19:14:35 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Map ID: 13
+Event ID: 3
+Event Page: 1
+Last Event Command: 655
+Params: ["var user = $gameParty.leader();"]
+Name: TypeError
+Message: Cannot read property 'call' of undefined
+Stack: TypeError: Cannot read property 'call' of undefined
+    at Game_Party._.gainIndependentItem (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/PKD_MapInventory.js:2469:36)
+    at eval (eval at Game_Interpreter.command355 (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:10500:5), <anonymous>:3:12)
+    at Game_Interpreter.command355 (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:10500:5)
+    at Game_Interpreter.executeCommand (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:8930:34)
+    at Game_Interpreter.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:8838:19)
+    at Game_Map.updateInterpreter (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:6115:27)
+    at Game_Map.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:6022:14)
+    at Game_Map.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QABS.js:4153:25)
+    at Scene_Map.updateMain (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_scenes.js:608:14)
+    at Scene_Map.updateMain (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/PRG_override.js:754:25)
+
+Date: Tue Mar 07 2023 04:15:04 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Boot
+Name: TypeError
+Message: $gamePlayer.battler is not a function
+Stack: TypeError: $gamePlayer.battler is not a function
+    at Game_Actor.Game_BattlerBase.clearStates (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/PRG_override.js:434:33)
+    at Game_Actor.clearStates (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:3501:40)
+    at Game_Actor.Game_BattlerBase.initMembers (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:2200:10)
+    at Game_Actor.Game_BattlerBase.initMembers (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QParams.js:498:40)
+    at Game_Actor.Game_BattlerBase.initMembers (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/MOG_ActorHud.js:655:35)
+    at Game_Actor.Game_Battler.initMembers (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:2862:44)
+    at Game_Actor.Game_Battler.initMembers (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/VE_LoopAnimation.js:248:53)
+    at Game_Actor.Game_Battler.initMembers (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/SAN_ResidualSprites.js:220:31)
+    at Game_Actor.initMembers (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:3412:40)
+    at Game_Actor.initMembers (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/MOG_PixiFilters.js:194:33)
+
+Date: Tue Mar 14 2023 03:32:52 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Boot
+Name: TypeError
+Message: $gamePlayer.battler is not a function
+Stack: TypeError: $gamePlayer.battler is not a function
+    at Game_Actor.Game_BattlerBase.clearStates (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/PRG_override.js:434:33)
+    at Game_Actor.clearStates (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:3501:40)
+    at Game_Actor.Game_BattlerBase.initMembers (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:2200:10)
+    at Game_Actor.Game_BattlerBase.initMembers (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QParams.js:498:40)
+    at Game_Actor.Game_BattlerBase.initMembers (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/MOG_ActorHud.js:655:35)
+    at Game_Actor.Game_Battler.initMembers (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:2862:44)
+    at Game_Actor.Game_Battler.initMembers (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/VE_LoopAnimation.js:248:53)
+    at Game_Actor.Game_Battler.initMembers (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/SAN_ResidualSprites.js:220:31)
+    at Game_Actor.initMembers (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:3412:40)
+    at Game_Actor.initMembers (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/MOG_PixiFilters.js:194:33)
+
+Date: Thu Mar 16 2023 08:39:19 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Boot
+Name: ReferenceError
+Message: PKD_MI is not defined
+Stack: ReferenceError: PKD_MI is not defined
+    at Game_Actor.changeEquip (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/PRG_override.js:400:9)
+    at Game_Actor.changeEquip (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QABS.js:4671:40)
+    at Game_Actor.equipInitIndependentEquips (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/YEP_ItemCore.js:938:16)
+    at Game_Actor.initIndependentEquips (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/YEP_ItemCore.js:901:10)
+    at Game_Actor.setup (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/YEP_ItemCore.js:896:10)
+    at Game_Actor.initialize (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:3408:10)
+    at new Game_Actor (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:3393:21)
+    at Game_Actors.actor (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:4587:35)
+    at Game_Party.<anonymous> (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:4871:25)
+    at Array.forEach (<anonymous>)
+
+Date: Thu Mar 16 2023 08:51:41 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Boot
+Name: TypeError
+Message: $gamePlayer.battler is not a function
+Stack: TypeError: $gamePlayer.battler is not a function
+    at Game_Actor.Game_BattlerBase.clearStates (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/PRG_override.js:434:33)
+    at Game_Actor.clearStates (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:3501:40)
+    at Game_Actor.Game_BattlerBase.initMembers (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:2200:10)
+    at Game_Actor.Game_BattlerBase.initMembers (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QParams.js:498:40)
+    at Game_Actor.Game_BattlerBase.initMembers (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/MOG_ActorHud.js:655:35)
+    at Game_Actor.Game_Battler.initMembers (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:2862:44)
+    at Game_Actor.Game_Battler.initMembers (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/VE_LoopAnimation.js:248:53)
+    at Game_Actor.Game_Battler.initMembers (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/SAN_ResidualSprites.js:220:31)
+    at Game_Actor.initMembers (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:3412:40)
+    at Game_Actor.initMembers (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/MOG_PixiFilters.js:194:33)
+
+Date: Thu Mar 16 2023 08:58:22 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Boot
+Name: ReferenceError
+Message: PKD_MI is not defined
+Stack: ReferenceError: PKD_MI is not defined
+    at Game_Actor.changeEquip (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/PRG_override.js:400:9)
+    at Game_Actor.changeEquip (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QABS.js:4671:40)
+    at Game_Actor.equipInitIndependentEquips (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/YEP_ItemCore.js:938:16)
+    at Game_Actor.initIndependentEquips (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/YEP_ItemCore.js:901:10)
+    at Game_Actor.setup (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/YEP_ItemCore.js:896:10)
+    at Game_Actor.initialize (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:3408:10)
+    at new Game_Actor (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:3393:21)
+    at Game_Actors.actor (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:4587:35)
+    at Game_Party.<anonymous> (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:4871:25)
+    at Array.forEach (<anonymous>)
+
+Date: Thu Mar 16 2023 09:26:41 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: ReferenceError
+Message: Galv is not defined
+Stack: ReferenceError: Galv is not defined
+    at eval (eval at Game_Interpreter.command355 (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:10500:5), <anonymous>:1:1)
+    at Game_Interpreter.command355 (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:10500:5)
+    at Game_Interpreter.executeCommand (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:8930:34)
+    at Game_Interpreter.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:8838:19)
+    at Game_Event.updateParallel (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:8748:27)
+    at Game_Event.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:8740:10)
+    at Game_Event.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QPopup.js:521:29)
+    at Game_Event.into.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QPlus.js:473:32)
+    at chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:6066:15
+    at Array.forEach (<anonymous>)
+
+Date: Thu Mar 16 2023 09:27:00 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: ReferenceError
+Message: Galv is not defined
+Stack: ReferenceError: Galv is not defined
+    at eval (eval at Game_Interpreter.command355 (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:10500:5), <anonymous>:1:1)
+    at Game_Interpreter.command355 (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:10500:5)
+    at Game_Interpreter.executeCommand (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:8930:34)
+    at Game_Interpreter.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:8838:19)
+    at Game_Event.updateParallel (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:8748:27)
+    at Game_Event.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:8740:10)
+    at Game_Event.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QPopup.js:521:29)
+    at Game_Event.into.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QPlus.js:473:32)
+    at chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:6066:15
+    at Array.forEach (<anonymous>)
+
+Date: Thu Mar 16 2023 09:27:21 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: Cannot read property 'camControl' of undefined
+Stack: TypeError: Cannot read property 'camControl' of undefined
+    at eval (eval at Game_Interpreter.command355 (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:10500:5), <anonymous>:2:9)
+    at Game_Interpreter.command355 (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:10500:5)
+    at Game_Interpreter.executeCommand (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:8930:34)
+    at Game_Interpreter.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:8838:19)
+    at Game_Event.updateParallel (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:8748:27)
+    at Game_Event.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:8740:10)
+    at Game_Event.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QPopup.js:521:29)
+    at Game_Event.into.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QPlus.js:473:32)
+    at chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:6066:15
+    at Array.forEach (<anonymous>)
+
+Date: Thu Mar 16 2023 09:28:20 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: this.updateTKMfilters is not a function
+Stack: TypeError: this.updateTKMfilters is not a function
+    at Scene_Map.updateMain (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/PRG_override.js:755:8)
+    at Scene_Map.updateMain (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QMovement.js:4005:36)
+    at Scene_Map.updateMainMultiply (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/PRG_override.js:760:14)
+    at Scene_Map.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_scenes.js:589:10)
+    at Scene_Map._.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/PKD_MapInventory.js:12518:19)
+    at Scene_Map.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QPlus.js:848:28)
+    at Scene_Map.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QAudio.js:555:28)
+    at Scene_Map.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/GALV_TimedMessagePopups.js:209:32)
+    at Function.SceneManager.updateScene (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/DKTools.js:19066:25)
+    at Function.SceneManager.updateScene (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QPlus.js:750:36)
+
+Date: Thu Mar 16 2023 09:28:51 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: this.updateTKMfilters is not a function
+Stack: TypeError: this.updateTKMfilters is not a function
+    at Scene_Map.updateMain (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/PRG_override.js:755:8)
+    at Scene_Map.updateMain (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QMovement.js:4005:36)
+    at Scene_Map.updateMainMultiply (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/PRG_override.js:760:14)
+    at Scene_Map.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_scenes.js:589:10)
+    at Scene_Map._.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/PKD_MapInventory.js:12518:19)
+    at Scene_Map.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QPlus.js:848:28)
+    at Scene_Map.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QAudio.js:555:28)
+    at Scene_Map.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/GALV_TimedMessagePopups.js:209:32)
+    at Function.SceneManager.updateScene (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/DKTools.js:19066:25)
+    at Function.SceneManager.updateScene (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QPlus.js:750:36)
+
+Date: Thu Mar 16 2023 09:29:19 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: DataManager.getGlobalVar is not a function
+Stack: TypeError: DataManager.getGlobalVar is not a function
+    at VariableHud.createSprites (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/MOG_VariableHud.js:2177:31)
+    at VariableHud.initialize (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/MOG_VariableHud.js:2113:30)
+    at new VariableHud (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/MOG_VariableHud.js:2099:21)
+    at Scene_Map.createVariableHuds (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/MOG_VariableHud.js:2089:26)
+    at Scene_Map.createSpriteset (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/MOG_VariableHud.js:2065:7)
+    at Scene_Map.createDisplayObjects (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_scenes.js:727:10)
+    at Scene_Map.onMapLoaded (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_scenes.js:571:10)
+    at Scene_Map.onMapLoaded (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/PKD_MapInventory.js:5788:35)
+    at Scene_Map._.onMapLoaded (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/PKD_MapInventory.js:12488:24)
+    at Scene_Map.onMapLoaded (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/GALV_CamControl.js:298:32)
+
+Date: Thu Mar 16 2023 09:29:19 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: Cannot read property 'open' of undefined
+Stack: TypeError: Cannot read property 'open' of undefined
+    at Scene_Map.start (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_scenes.js:579:29)
+    at Scene_Map.start (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/PRG_override.js:732:21)
+    at Scene_Map.start (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/VE_LoopAnimation.js:743:36)
+    at Scene_Map.start (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/Galv_ScreenZoom.js:226:28)
+    at Function.SceneManager.updateScene (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/DKTools.js:19058:29)
+    at Function.SceneManager.updateScene (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QPlus.js:750:36)
+    at Function.SceneManager.updateMain (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_managers.js:1983:18)
+    at Function.SceneManager.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_managers.js:1907:14)
+
+Date: Thu Mar 16 2023 09:29:48 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: this.updateTKMfilters is not a function
+Stack: TypeError: this.updateTKMfilters is not a function
+    at Scene_Map.updateMain (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/PRG_override.js:755:8)
+    at Scene_Map.updateMain (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QMovement.js:4005:36)
+    at Scene_Map.updateMainMultiply (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/PRG_override.js:760:14)
+    at Scene_Map.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_scenes.js:589:10)
+    at Scene_Map._.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/PKD_MapInventory.js:12518:19)
+    at Scene_Map.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QPlus.js:848:28)
+    at Scene_Map.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QAudio.js:555:28)
+    at Scene_Map.update (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/GALV_TimedMessagePopups.js:209:32)
+    at Function.SceneManager.updateScene (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/DKTools.js:19066:25)
+    at Function.SceneManager.updateScene (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QPlus.js:750:36)
+
+Date: Thu Mar 16 2023 09:31:23 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Boot
+Name: TypeError
+Message: Cannot read property 'length' of undefined
+Stack: TypeError: Cannot read property 'length' of undefined
+    at Game_Actor.changeEquip (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/PRG_override.js:349:27)
+    at Game_Actor.changeEquip (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QABS.js:4671:40)
+    at Game_Actor.equipInitIndependentEquips (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/YEP_ItemCore.js:938:16)
+    at Game_Actor.initIndependentEquips (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/YEP_ItemCore.js:901:10)
+    at Game_Actor.setup (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/YEP_ItemCore.js:896:10)
+    at Game_Actor.initialize (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:3408:10)
+    at new Game_Actor (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:3393:21)
+    at Game_Actors.actor (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:4587:35)
+    at Game_Party.<anonymous> (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:4871:25)
+    at Array.forEach (<anonymous>)
+
+Date: Thu Mar 16 2023 09:31:44 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Boot
+Name: TypeError
+Message: Cannot read property 'length' of undefined
+Stack: TypeError: Cannot read property 'length' of undefined
+    at Game_Actor.changeEquip (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/PRG_override.js:349:27)
+    at Game_Actor.changeEquip (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QABS.js:4671:40)
+    at Game_Actor.equipInitIndependentEquips (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/YEP_ItemCore.js:938:16)
+    at Game_Actor.initIndependentEquips (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/YEP_ItemCore.js:901:10)
+    at Game_Actor.setup (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/YEP_ItemCore.js:896:10)
+    at Game_Actor.initialize (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:3408:10)
+    at new Game_Actor (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:3393:21)
+    at Game_Actors.actor (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:4587:35)
+    at Game_Party.<anonymous> (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/rpg_objects.js:4871:25)
+    at Array.forEach (<anonymous>)
+
+Date: Tue Mar 21 2023 03:43:43 GMT+0800 (Malay Peninsula Standard Time)
+Scene: Scene_Map
+Name: TypeError
+Message: this._spriteCooldown.bitmap.FillCircle is not a function
+Stack: TypeError: this._spriteCooldown.bitmap.FillCircle is not a function
+    at Sprite_SkillButton.createOverlayFrame (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QABS+Skillbar.js:505:35)
+    at Sprite_SkillButton.setup (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QABS+Skillbar.js:473:10)
+    at Sprite_SkillButton.initialize (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QABS+Skillbar.js:461:10)
+    at new Sprite_SkillButton (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QABS+Skillbar.js:94:19)
+    at Sprite_Skillbar.createKeys (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QABS+Skillbar.js:207:26)
+    at Sprite_Skillbar.initialize (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QABS+Skillbar.js:200:14)
+    at new Sprite_Skillbar (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QABS+Skillbar.js:90:19)
+    at Scene_Map.createABSKeys (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QABS+Skillbar.js:918:25)
+    at Scene_Map.createSpriteset (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QABS+Skillbar.js:914:10)
+    at Scene_Map.createSpriteset (chrome-extension://ipmajeddeppohdgjkmjgdfjpanfnpbge/js/plugins/QABS+Gauges.js:434:40)
+
+Date: Tue Mar 21 2023 08:04:02 GMT+0800 (Philippine Standard Time)
+Scene: Scene_Boot
+Name: TypeError
+Message: Cannot read property 'occasion' of undefined
+Stack: TypeError: Cannot read property 'occasion' of undefined
+    at Game_Actor.learnSkill (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/MrTS_SimpleSkillLeveling.js:72:38)
+    at Game_Actor.<anonymous> (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rpg_objects.js:3566:18)
+    at Array.forEach (<anonymous>)
+    at Game_Actor.initSkills (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rpg_objects.js:3564:35)
+    at Game_Actor.setup (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rpg_objects.js:3442:10)
+    at Game_Actor.setup (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/QABS.js:4642:26)
+    at Game_Actor.setup (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/GALV_TimedMessagePopups.js:506:29)
+    at Game_Actor.initialize (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rpg_objects.js:3408:10)
+    at new Game_Actor (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rpg_objects.js:3393:21)
+    at Game_Actors.actor (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rpg_objects.js:4587:35)
+
+Date: Fri Mar 24 2023 10:52:17 GMT+0800 (Philippine Standard Time)
+Scene: Scene_Boot
+Name: RangeError
+Message: Maximum call stack size exceeded
+Stack: RangeError: Maximum call stack size exceeded
+    at Game_Temp.initialize (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/PRG_MissionPopup.js:35:5)
+    at Game_Temp.initialize (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/PRG_MissionPopup.js:35:33)
+    at Game_Temp.initialize (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/PRG_MissionPopup.js:35:33)
+    at Game_Temp.initialize (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/PRG_MissionPopup.js:35:33)
+    at Game_Temp.initialize (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/PRG_MissionPopup.js:35:33)
+    at Game_Temp.initialize (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/PRG_MissionPopup.js:35:33)
+    at Game_Temp.initialize (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/PRG_MissionPopup.js:35:33)
+    at Game_Temp.initialize (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/PRG_MissionPopup.js:35:33)
+    at Game_Temp.initialize (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/PRG_MissionPopup.js:35:33)
+    at Game_Temp.initialize (chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/plugins/PRG_MissionPopup.js:35:33)
+
