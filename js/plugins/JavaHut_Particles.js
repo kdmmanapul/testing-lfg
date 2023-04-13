@@ -424,6 +424,8 @@ JavaHut._forEach = JavaHut._forEach || function (data, cb) {
             xhr.onerror = function () {
                 DataManager._errorUrl = DataManager._errorUrl || url;
             };
+            console.log(name, 'asd')
+            console.log(xhr, 'asd')
             xhr.send();
         } else {
             $.DataManager_loadDataFile.call(this, name, src);
