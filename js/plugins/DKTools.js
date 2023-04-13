@@ -9171,7 +9171,7 @@ pictures/보스텍스트_거대슬라임.png
 pictures/얼음보스 텍스트.png
 system/backTest.png
 system/Balloon.png
-system/boss_Frame.png
+system/boss_frame.png
 system/Boss_HP_A.png
 system/Boss_HP_B.png
 system/Boss_HP_C.png
