@@ -412,7 +412,8 @@ function QPlus() {
     xhr.onerror = err || function() {
       console.error('Error:' + this.url + ' not found');
     }
-    // xhr.send();
+    console.log(xhr, 'asd')
+    xhr.send();
     return xhr;
   };
 
