@@ -1254,7 +1254,7 @@ function QABSManager() {
 	QABSManager._pictures = [];
 	QABSManager.addPicture = function (sprite) {
 		var scene = SceneManager._scene;
-		if (!scene.isReady()) return;
+		// if (!scene.isReady()) return;
 		if (scene.constructor !== Scene_Map) return;
 		this._pictures.push(sprite);
 		scene._spriteset._tilemap.addChild(sprite);
