@@ -283,7 +283,7 @@ function Sprite_BossGauge() {
   // Game_Event
 
   Game_Event.prototype.showGauge = function() {
-    return !this.battler()._hideHpBar;
+    return this.inCombat() && !this.battler()._hideHpBar;
     };
 
     Game_Event.prototype.killGauge = function () {
@@ -296,16 +296,16 @@ function Sprite_BossGauge() {
   Sprite_Character.prototype.setBattler = function(battler) {
     Alias_Sprite_Character_setBattler.call(this, battler);
       if (!battler || this._character === $gamePlayer) return;
-    //  if (!this._gaugeSprite) {
-    //      this._gaugeSprite = new Sprite_Gauge();
-    //      this.addChild(this._gaugeSprite);
-    //  }
-    //this._gaugeSprite.setup(this._character, battler); // ÀÏ¹Ý¸÷ °ÔÀÌÁö
+     if (!this._gaugeSprite && !battler._bossHpBar) {
+         this._gaugeSprite = new Sprite_Gauge();
+         this.addChild(this._gaugeSprite);
+         this._gaugeSprite.setup(this._character, battler); // ï¿½Ï¹Ý¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+     }
       if (battler._bossHpBar) {
-          if (!this._gaugeSprite) {
-              this._gaugeSprite = new Sprite_Gauge();
-              this.addChild(this._gaugeSprite);
-          }
+          // if (!this._gaugeSprite) {
+          //     this._gaugeSprite = new Sprite_Gauge();
+          //     this.addChild(this._gaugeSprite);
+          // }
 
       if (!this._bossGauge) {
         this._bossGauge = new Sprite_BossGauge();
@@ -449,7 +449,9 @@ function Sprite_BossGauge() {
           return;
       }
       this.drawGauge();
-      this.drawFrame();
+      if (this._battler._bossHpBar) {
+        this.drawFrame();
+      };
     this.drawName();
     this._targetW = Math.floor(this._width * this._hpRate);
     this._speed = Math.abs(this._currentW - this._targetW) / 30;
@@ -615,7 +617,7 @@ function Sprite_BossGauge() {
         this._bossIndex = index;
     };
 
-    //¾À_¸Ê¿¡ °É±â
+    //ï¿½ï¿½_ï¿½Ê¿ï¿½ ï¿½É±ï¿½
     var _Qgauges_Scene_Map_createSpriteset = Scene_Map.prototype.createSpriteset;
     Scene_Map.prototype.createSpriteset = function () {
         _Qgauges_Scene_Map_createSpriteset.call(this);
