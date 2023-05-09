@@ -1358,11 +1358,11 @@ var PRG = PRG || {}; //PRG main object
 						return 157;
 				}
 			} else {
-				if ($gameVariables.value(321) == 5) {
+				if ($gameVariables.value(321) == 99) {
 					$gamePlayer.reserveTransfer(63, 8, 9, null, 0);
 				} else {
 					// var random = Math.floor(Math.random() * (61-51) + 51);
-					var array = [8, 181, 182, 183, 9]
+					var array = [187, 188, 189, 190]
 					var random = array[array.length * Math.random() | 0]
 					if(random == $gameMap.mapId()) {
 						// return Math.floor(Math.random() * (23-14) + 14);
@@ -1498,55 +1498,44 @@ var PRG = PRG || {}; //PRG main object
 		const mapForest = [
 			// Battle Zones
 			{
-				mapNumber: 8,
+				mapNumber: 187,
 				mapTopX: 9,
 				mapTopY: 2,
-				mapLeftX: 48,
-				mapLeftY: 20,
+				mapLeftX: 51,
+				mapLeftY: 36,
 				mapRightX: 14,
 				mapRightY: 5,
 				mapDownX: 9,
 				mapDownY: 9,
 			},
 			{
-				mapNumber: 9,
+				mapNumber: 188,
 				mapTopX: 9,
 				mapTopY: 2,
-				mapLeftX: 49,
-				mapLeftY: 28,
+				mapLeftX: 51,
+				mapLeftY: 36,
 				mapRightX: 14,
 				mapRightY: 5,
 				mapDownX: 9,
 				mapDownY: 9,
 			},
 			{
-				mapNumber: 181,
+				mapNumber: 189,
 				mapTopX: 9,
 				mapTopY: 2,
-				mapLeftX: 38,
-				mapLeftY: 14,
+				mapLeftX: 51,
+				mapLeftY: 36,
 				mapRightX: 14,
 				mapRightY: 5,
 				mapDownX: 9,
 				mapDownY: 9,
 			},
 			{
-				mapNumber: 182,
+				mapNumber: 190,
 				mapTopX: 9,
 				mapTopY: 2,
-				mapLeftX: 95,
-				mapLeftY: 75,
-				mapRightX: 14,
-				mapRightY: 5,
-				mapDownX: 9,
-				mapDownY: 9,
-			},
-			{
-				mapNumber: 183,
-				mapTopX: 9,
-				mapTopY: 2,
-				mapLeftX: 70,
-				mapLeftY: 25,
+				mapLeftX: 51,
+				mapLeftY: 36,
 				mapRightX: 14,
 				mapRightY: 5,
 				mapDownX: 9,
@@ -1606,9 +1595,12 @@ var PRG = PRG || {}; //PRG main object
 		}
 
 		console.log(mapId, xMap, yMap, 'map x y')
+		console.log($gameMap._mapId, 'current map')
 		$gameSelfSwitches.clear();
+		$gameSystem.clearCustomEvents($gameMap._mapId)
 		$gameVariables.setValue(321, $gameVariables.value(321) + 1);
 		$gameVariables.setValue(325, 0);
+		$gameVariables.setValue(323, 0);
 		return $gamePlayer.reserveTransfer(mapId, xMap, yMap, null, 0);
 	}
 })();
