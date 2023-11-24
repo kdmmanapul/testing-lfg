@@ -5139,7 +5139,7 @@ function Game_CharacterAgro() {
 						timeStop[3] = true;
 					} else timeStop[3] = false;
 				} else {
-					$gameMap.createFilter('test1', 'zoomblur', 0);
+					$gameMap.createFilter('test1', 'oldfilm', 0);
 					$gameMap.setFilter('test1')
 					timeStop[3] = true;
 				}

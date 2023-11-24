@@ -1362,7 +1362,7 @@ var PRG = PRG || {}; //PRG main object
 					$gamePlayer.reserveTransfer(63, 8, 9, null, 0);
 				} else {
 					// var random = Math.floor(Math.random() * (61-51) + 51);
-					var array = [187, 188, 189, 190]
+					var array = [51, 52, 53, 54]
 					var random = array[array.length * Math.random() | 0]
 					if(random == $gameMap.mapId()) {
 						// return Math.floor(Math.random() * (23-14) + 14);
@@ -1498,44 +1498,44 @@ var PRG = PRG || {}; //PRG main object
 		const mapForest = [
 			// Battle Zones
 			{
-				mapNumber: 187,
+				mapNumber: 51,
 				mapTopX: 9,
 				mapTopY: 2,
-				mapLeftX: 51,
-				mapLeftY: 36,
+				mapLeftX: 12,
+				mapLeftY: 7,
 				mapRightX: 14,
 				mapRightY: 5,
 				mapDownX: 9,
 				mapDownY: 9,
 			},
 			{
-				mapNumber: 188,
+				mapNumber: 52,
 				mapTopX: 9,
 				mapTopY: 2,
-				mapLeftX: 51,
-				mapLeftY: 36,
+				mapLeftX: 12,
+				mapLeftY: 7,
 				mapRightX: 14,
 				mapRightY: 5,
 				mapDownX: 9,
 				mapDownY: 9,
 			},
 			{
-				mapNumber: 189,
+				mapNumber: 53,
 				mapTopX: 9,
 				mapTopY: 2,
-				mapLeftX: 51,
-				mapLeftY: 36,
+				mapLeftX: 12,
+				mapLeftY: 7,
 				mapRightX: 14,
 				mapRightY: 5,
 				mapDownX: 9,
 				mapDownY: 9,
 			},
 			{
-				mapNumber: 190,
+				mapNumber: 54,
 				mapTopX: 9,
 				mapTopY: 2,
-				mapLeftX: 51,
-				mapLeftY: 36,
+				mapLeftX: 12,
+				mapLeftY: 7,
 				mapRightX: 14,
 				mapRightY: 5,
 				mapDownX: 9,
@@ -1598,7 +1598,7 @@ var PRG = PRG || {}; //PRG main object
 		console.log($gameMap._mapId, 'current map')
 		$gameSelfSwitches.clear();
 		$gameSystem.clearCustomEvents($gameMap._mapId)
-		$gameVariables.setValue(321, $gameVariables.value(321) + 1);
+		$gameVariables.setValue(321, $gameVariables.value(321) + 5);
 		$gameVariables.setValue(325, 0);
 		$gameVariables.setValue(323, 0);
 		return $gamePlayer.reserveTransfer(mapId, xMap, yMap, null, 0);
