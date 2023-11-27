@@ -694,14 +694,14 @@ if (Imported.MVCommons === undefined) {
 		return Math.abs(total / size);
 	};
 
-	_Scene_Base_isReady = Scene_Base.prototype.isReady;
-	Scene_Base.prototype.isReady = function () {
-		var ready = _Scene_Base_isReady.call(this);
-		if (ready) {
-			if (PIXI.ticker.shared.FPS <= 58) return false;
-		}
-		return ready && ImageManager.isReady();// && this.averageLatency() < 1;
-	};
+	// _Scene_Base_isReady = Scene_Base.prototype.isReady;
+	// Scene_Base.prototype.isReady = function () {
+	// 	var ready = _Scene_Base_isReady.call(this);
+	// 	if (ready) {
+	// 		if (PIXI.ticker.shared.FPS <= 58) return false;
+	// 	}
+	// 	return ready && ImageManager.isReady();// && this.averageLatency() < 1;
+	// };
 
 	_Scene_Base_isActive = Scene_Base.prototype.isActive;
 	//-----------------------------------------------------------------------------
