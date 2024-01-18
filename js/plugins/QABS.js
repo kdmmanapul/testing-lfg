@@ -5045,8 +5045,15 @@ function Game_CharacterAgro() {
 		return true;
 	};
 
-	Game_CharacterBase.prototype.canUseSkill = function (id) {
+	Game_CharacterBase.prototype.canUseSkill = function (id = 616) {
 		var skill = $dataSkills[id];
+		console.log(skill, 'skill')
+		if (skill) {
+			console.log(this.usableSkills(), 'useable')
+			console.log(this.usableSkills().contains(id), 'skill1')
+			console.log(this.battler().canPaySkillCost(skill), 'skill2')
+			console.log(this.usableSkills().contains(id) && this.battler().canPaySkillCost(skill), 'skill3')
+		}
 		//return this.battler().canPaySkillCost(skill);
 		return this.usableSkills().contains(id) && this.battler().canPaySkillCost(skill);
 	};
@@ -5874,7 +5881,9 @@ function Game_CharacterAgro() {
 									this._aMaxStack = stacking.length;
 									var skill = Number(stacking[this._aStack]);
 									var lastSkill = this._aStack == 0 ? skill : Number(stacking[this._aStack - 1]);
+									console.log(stacking, this._aMaxStack, skill, lastSkill)
 									if (this.canUseSkill(lastSkill)) {
+										console.log(skill, 'yes')
 										this.useSkill(skill);
 										if (this._aStack > stacking.length - 1) {
 											this._aStack = 0;

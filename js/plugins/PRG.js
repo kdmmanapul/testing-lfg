@@ -1358,7 +1358,7 @@ var PRG = PRG || {}; //PRG main object
 						return 157;
 				}
 			} else {
-				if ($gameVariables.value(321) == 99) {
+				if ($gameVariables.value(321) == 50) {
 					$gamePlayer.reserveTransfer(63, 8, 9, null, 0);
 				} else {
 					// var random = Math.floor(Math.random() * (61-51) + 51);
