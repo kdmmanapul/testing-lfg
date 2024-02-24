@@ -1,5 +1,5 @@
 {
-    "name": "game",
+    "name": "rmmz-game",
     "main": "index.html",
     "chromium-args" : "--in-process-gpu --ignore-gpu-blacklist --force-gpu-mem-available-mb=10000 --force-gpu-rasterization --enable-native-gpu-memory-buffers --enable-gpu-memory-buffer-compositor-resources",
     "window": {
