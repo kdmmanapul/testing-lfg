@@ -3,230 +3,711 @@
 //=============================================================================
 
 /*:
- * @plugindesc (v1.1) Adiciona partículas na tela de título
- * alem da opção de ativar o circulo mágico.
+ * @target MZ
+ * @plugindesc (v1.3) Adiciona partículas na tela de título.
  * @author Moghunter
+ * @url https://mogplugins.wordpress.com
+ * 
+ * @param -> Particles 1 <<<<<<<<<<<<<<<<<<<<<<<
+ * @desc
+ * 
+ * @param P1 Visible
+ * @desc Ativar partícula.
+ * @default true
+ * @type boolean 
+ * @parent -> Particles 1 <<<<<<<<<<<<<<<<<<<<<<<
  *
- * @param ParticleNumber
- * @desc Quantidade de partículas na tela.
- * (Default - 25)
+ * @param P1 File Name
+ * @desc Nome do arquivo.
+ * @default Particles
+ * @type file
+ * @dir img/titles2/ 
+ * @parent -> Particles 1 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P1 Amount
+ * @desc Quantidade de partículas.
  * @default 25
+ * @parent -> Particles 1 <<<<<<<<<<<<<<<<<<<<<<<
+ * 
+ * @param P1 X Speed
+ * @desc Velocidade X-Axis.
+ * @default -10
+ * @parent -> Particles 1 <<<<<<<<<<<<<<<<<<<<<<<
  *
- * @param X axis Speed
- * @desc Velocidade da partícula na horizontal.
- * @default 1
+ * @param P1 Y Speed
+ * @desc Velocidade Y-Axis.
+ * @default -1
+ * @parent -> Particles 1 <<<<<<<<<<<<<<<<<<<<<<<
  *
- * @param Y axis Speed
- * @desc Velocidade da partícula na vertical.
- * @default -2
- *
- * @param A Speed
- * @desc Velocidade do ângulo das partículas.
- * (Default - 0.02)
+ * @param P1 Rotation Speed
+ * @desc Velocidade de rotação.
  * @default 0.02
+ * @parent -> Particles 1 <<<<<<<<<<<<<<<<<<<<<<<
  *
- * @param Blend Mode
- * @desc Tipo de Blend. (0 a 2)
+ * @param P1 Blend Mode
+ * @desc Definição de blend.
  * @default 1
+ * @type select
+ * @option Normal
+ * @value 0
+ * @option Add
+ * @value 1 
+ * @option Substract
+ * @value 2
+ * @parent -> Particles 1 <<<<<<<<<<<<<<<<<<<<<<<
  *
- * @param OX
- * @desc Definição da origem X das partículas. (0.5 - Centralizado / 1.0 - Normal)
- * @default 1.0
- * 
- * @param OY
- * @desc Definição da origem Y das partículas. (0.5 - Centralizado / 1.0 - Normal)
- * @default 1.0
- * 
- * @param Magic Circle Visible
- * @desc Ativar o sprite do circulo mágico.  (true / false)
- * É necessário ter o arquivo Magic_Circle.png
+ * @param P1 Anchor
+ * @desc Definição do anchor.
+ * @default 0
+ * @parent -> Particles 1 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P1 Leaf Mode
+ * @desc Ativar animação de folha.
  * @default false
- * 
- * @param Magic Circle OX
- * @desc Definição da posição X-axis do circulo mágico.
+ * @type boolean
+ * @parent -> Particles 1 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P1 Transition Time
+ * @desc Tempo para apresentar a imagem.
  * @default 0
+ * @parent -> Particles 1 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param -> Particles 2 <<<<<<<<<<<<<<<<<<<<<<<
+ * @desc
  * 
- * @param Magic Circle OY
- * @desc Definição da posição Y-axis do circulo mágico.
- * @default 0
- * 
- * @param Magic Circle A Speed
- * @desc Definição da velocidade de rotação do circulo mágico.
- * (Default - 0.01)
+ * @param P2 Visible
+ * @desc Ativar partícula.
+ * @default true
+ * @type boolean 
+ * @parent -> Particles 2 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P2 File Name
+ * @desc Nome do arquivo.
+ * @default Particles2
+ * @type file
+ * @dir img/titles2/ 
+ * @parent -> Particles 2 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P2 Amount
+ * @desc Quantidade de partículas.
+ * @default 5
+ * @parent -> Particles 2 <<<<<<<<<<<<<<<<<<<<<<<
+ *  
+ * @param P2 X Speed
+ * @desc Velocidade X-Axis.
+ * @default 2
+ * @parent -> Particles 2 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P2 Y Speed
+ * @desc Velocidade Y-Axis.
+ * @default 2
+ * @parent -> Particles 2 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P2 Rotation Speed
+ * @desc Velocidade de rotação.
  * @default 0.01
+ * @parent -> Particles 2 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P2 Blend Mode
+ * @desc Definição de blend.
+ * @default 0
+ * @type select
+ * @option Normal
+ * @value 0
+ * @option Add
+ * @value 1 
+ * @option Substract
+ * @value 2
+ * @parent -> Particles 2 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P2 Anchor
+ * @desc Definição do anchor.
+ * @default 0
+ * @parent -> Particles 2 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P2 Leaf Mode
+ * @desc Ativar animação de folha.
+ * @default false
+ * @type boolean
+ * @parent -> Particles 2 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P2 Transition Time
+ * @desc Tempo para apresentar a imagem.
+ * @default 0
+ * @parent -> Particles 2 <<<<<<<<<<<<<<<<<<<<<<<
  * 
- * @param Magic Circle Blend Type
- * @desc Tipo de Blend. (0 a 2)
+ * @param -> Particles 3 <<<<<<<<<<<<<<<<<<<<<<<
+ * @desc
+ * 
+ * @param P3 Visible
+ * @desc Ativar partícula.
+ * @default true
+ * @type boolean 
+ * @parent -> Particles 3 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P3 File Name
+ * @desc Nome do arquivo.
+ * @default Particles3
+ * @type file
+ * @dir img/titles2/ 
+ * @parent -> Particles 3 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P3 Amount
+ * @desc Quantidade de partículas.
+ * @default 5
+ * @parent -> Particles 3 <<<<<<<<<<<<<<<<<<<<<<<
+ * 
+ * @param P3 X Speed
+ * @desc Velocidade X-Axis.
+ * @default 0.5
+ * @parent -> Particles 3 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P3 Y Speed
+ * @desc Velocidade Y-Axis.
+ * @default 0.5
+ * @parent -> Particles 3 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P3 Rotation Speed
+ * @desc Velocidade de rotação.
+ * @default 0.006
+ * @parent -> Particles 3 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P3 Blend Mode
+ * @desc Definição de blend.
+ * @default 0
+ * @type select
+ * @option Normal
+ * @value 0
+ * @option Add
+ * @value 1 
+ * @option Substract
+ * @value 2
+ * @parent -> Particles 3 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P3 Anchor
+ * @desc Definição do anchor.
+ * @default 0
+ * @parent -> Particles 3 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P3 Leaf Mode
+ * @desc Ativar animação de folha.
+ * @default true
+ * @type boolean
+ * @parent -> Particles 3 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P3 Transition Time
+ * @desc Tempo para apresentar a imagem.
+ * @default 0
+ * @parent -> Particles 3 <<<<<<<<<<<<<<<<<<<<<<<
+ * 
+ * @param -> Particles 4 <<<<<<<<<<<<<<<<<<<<<<<
+ * @desc
+ * 
+ * @param P4 Visible
+ * @desc Ativar partícula.
+ * @default false
+ * @type boolean 
+ * @parent -> Particles 4 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P4 File Name
+ * @desc Nome do arquivo.
+ * @default Particles4
+ * @type file
+ * @dir img/titles2/ 
+ * @parent -> Particles 4 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P4 Amount
+ * @desc Quantidade de partículas.
+ * @default 25
+ * @parent -> Particles 4 <<<<<<<<<<<<<<<<<<<<<<<
+ * 
+ * @param P4 X Speed
+ * @desc Velocidade X-Axis.
+ * @default 2
+ * @parent -> Particles 4 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P4 Y Speed
+ * @desc Velocidade Y-Axis.
+ * @default 0.3
+ * @parent -> Particles 4 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P4 Rotation Speed
+ * @desc Velocidade de rotação.
+ * @default 0.3
+ * @parent -> Particles 4 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P4 Blend Mode
+ * @desc Definição de blend.
  * @default 1
+ * @type select
+ * @option Normal
+ * @value 0
+ * @option Add
+ * @value 1 
+ * @option Substract
+ * @value 2
+ * @parent -> Particles 4 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P4 Anchor
+ * @desc Definição do anchor.
+ * @default 0
+ * @parent -> Particles 4 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P4 Leaf Mode
+ * @desc Ativar animação de folha.
+ * @default true
+ * @type boolean
+ * @parent -> Particles 4 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P4 Transition Time
+ * @desc Tempo para apresentar a imagem.
+ * @default 0
+ * @parent -> Particles 4 <<<<<<<<<<<<<<<<<<<<<<<
  * 
+ * @param -> Particles 5 <<<<<<<<<<<<<<<<<<<<<<<
+ * @desc
+ * 
+ * @param P5 Visible
+ * @desc Ativar partícula.
+ * @default false
+ * @type boolean 
+ * @parent -> Particles 5 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P5 File Name
+ * @desc Nome do arquivo.
+ * @default Particles5
+ * @type file
+ * @dir img/titles2/ 
+ * @parent -> Particles 5 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P5 Amount
+ * @desc Quantidade de partículas.
+ * @default 25
+ * @parent -> Particles 5 <<<<<<<<<<<<<<<<<<<<<<<
+ * 
+ * @param P5 X Speed
+ * @desc Velocidade X-Axis.
+ * @default 4
+ * @parent -> Particles 5 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P5 Y Speed
+ * @desc Velocidade Y-Axis.
+ * @default 0
+ * @parent -> Particles 5 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P5 Rotation Speed
+ * @desc Velocidade de rotação.
+ * @default 0
+ * @parent -> Particles 5 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P5 Blend Mode
+ * @desc Definição de blend.
+ * @default 1
+ * @type select
+ * @option Normal
+ * @value 0
+ * @option Add
+ * @value 1 
+ * @option Substract
+ * @value 2
+ * @parent -> Particles 5 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P5 Anchor
+ * @desc Definição do anchor.
+ * @default 0
+ * @parent -> Particles 5 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P5 Leaf Mode
+ * @desc Ativar animação de folha.
+ * @default false
+ * @type boolean 
+ * @parent -> Particles 5 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P5 Transition Time
+ * @desc Tempo para apresentar a imagem.
+ * @default 0
+ * @parent -> Particles 5 <<<<<<<<<<<<<<<<<<<<<<<
+ * 
+ * @param -> Particles 6 <<<<<<<<<<<<<<<<<<<<<<<
+ * @desc
+ * 
+ * @param P6 Visible
+ * @desc Ativar partícula.
+ * @default false
+ * @type boolean 
+ * @parent -> Particles 6 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P6 File Name
+ * @desc Nome do arquivo.
+ * @default Particles6
+ * @type file
+ * @dir img/titles2/ 
+ * @parent -> Particles 6 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P6 Amount
+ * @desc Quantidade de partículas.
+ * @default 25
+ * @parent -> Particles 6 <<<<<<<<<<<<<<<<<<<<<<<
+ * 
+ * @param P6 X Speed
+ * @desc Velocidade X-Axis.
+ * @default 4
+ * @parent -> Particles 6 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P6 Y Speed
+ * @desc Velocidade Y-Axis.
+ * @default 0
+ * @parent -> Particles 6 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P6 Rotation Speed
+ * @desc Velocidade de rotação.
+ * @default 0
+ * @parent -> Particles 6 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P6 Blend Mode
+ * @desc Definição de blend.
+ * @default 1
+ * @type select
+ * @option Normal
+ * @value 0
+ * @option Add
+ * @value 1 
+ * @option Substract
+ * @value 2
+ * @parent -> Particles 6 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P6 Anchor
+ * @desc Definição do anchor.
+ * @default 0
+ * @parent -> Particles 6 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P6 Leaf Mode
+ * @desc Ativar animação de folha.
+ * @default false
+ * @type boolean 
+ * @parent -> Particles 6 <<<<<<<<<<<<<<<<<<<<<<<
+ *
+ * @param P6 Transition Time
+ * @desc Tempo para apresentar a imagem.
+ * @default 0
+ * @parent -> Particles 6 <<<<<<<<<<<<<<<<<<<<<<<
+ *
  * @help  
  * =============================================================================
- * +++ MOG - Title Particles (v1.1) +++
- * By Moghunter 
- * https://atelierrgss.wordpress.com/
+ * +++ MOG - Title Particles (v1.3) +++
+ * By Moghunter
+ * https://mogplugins.wordpress.com
  * =============================================================================
- * Adiciona partículas animadas na tela de título
- * alem da opção de ativar o circulo mágico.
- * É necessário ter o arquivo Particles.png na pasta.
+ * Adiciona partículas na tela de título.
+ *
+ * Grave as imagens na pasta.
  *
  * img/titles2/
  *
  * =============================================================================
- * ** Histórico **
+ * * HISTORICO
  * =============================================================================
- * v1.1 - Melhoria na codificação.
- * 
- * 
+ * (v1.3) - Melhoria na codificação.
+ * (v1.2) - Correção na função "sort relativo a codificação.    
+ * (v1.1) - Melhoria no plugin parameter na seleção de arquivos.
+ *
  */
 
 //=============================================================================
 // ** PLUGIN PARAMETERS
 //=============================================================================
-　　var Imported = Imported || {};
-　　Imported.MOG_Title_Particles = true;
+    var Imported = Imported || {};
+    Imported.MOG_Title_Particles = true;
 　　var Moghunter = Moghunter || {}; 
 
   　Moghunter.parameters = PluginManager.parameters('MOG_TitleParticles');
-    Moghunter.title_particle_number  = Number(Moghunter.parameters['ParticleNumber'] || 25);
-    Moghunter.title_particle_sx = Number(Moghunter.parameters['X axis Speed'] || 1);
-    Moghunter.title_particle_sy = Number(Moghunter.parameters['Y axis Speed'] || 1);
-    Moghunter.title_particle_a = Number(Moghunter.parameters['A Speed'] || 0.02);
-	Moghunter.title_particle_blend_mode  = Number(Moghunter.parameters['Blend Mode'] || 1);
-	Moghunter.title_particle_anchor_x = Number(Moghunter.parameters['OX'] || 1.0);
-	Moghunter.title_particle_anchor_y = Number(Moghunter.parameters['OY'] || 1.0);
-	Moghunter.title_particle_circle = (Moghunter.parameters['Magic Circle Visible'] || true);
-	Moghunter.title_particle_circle_x = Number(Moghunter.parameters['Magic Circle OX'] || 0);
-	Moghunter.title_particle_circle_y = Number(Moghunter.parameters['Magic Circle OY'] || 0);
-	Moghunter.title_particle_circle_a = Number(Moghunter.parameters['Magic Circle A Speed'] || 0.01);
-	Moghunter.title_particle_circle_blend = Number(Moghunter.parameters['Magic Circle Blend Type'] || 1);
-	
+	Moghunter.tparticles_M = 6 ;
+	Moghunter.tparticles_V = [];	Moghunter.tparticles_F = [];
+	Moghunter.tparticles_N = [];	Moghunter.tparticles_X = [];
+	Moghunter.tparticles_Y = [];	Moghunter.tparticles_R = [];
+	Moghunter.tparticles_B = [];	Moghunter.tparticles_A = [];
+	Moghunter.tparticles_L = [];
+	Moghunter.tparticles_T = [];
+	for (var i = 0; i < Moghunter.tparticles_M; i++) {
+		Moghunter.tparticles_V[i]  = String(Moghunter.parameters['P' + String(i + 1) + " Visible"] || "true");
+		Moghunter.tparticles_F[i]  = String(Moghunter.parameters['P' + String(i + 1) + " File Name"] || "Particles");
+		Moghunter.tparticles_N[i]  = Number(Moghunter.parameters['P' + String(i + 1) + " Amount"] || 25);
+		Moghunter.tparticles_X[i]  = Number(Moghunter.parameters['P' + String(i + 1) + " X Speed"] || 0);
+		Moghunter.tparticles_Y[i]  = Number(Moghunter.parameters['P' + String(i + 1) + " Y Speed"] || -1);
+		Moghunter.tparticles_R[i]  = Number(Moghunter.parameters['P' + String(i + 1) + " Rotation Speed"] || 0.02);
+		Moghunter.tparticles_B[i]  = Number(Moghunter.parameters['P' + String(i + 1) + " Blend Mode"] || 1);
+		Moghunter.tparticles_A[i]  = Number(Moghunter.parameters['P' + String(i + 1) + " Anchor"] || 0);
+		Moghunter.tparticles_L[i]  = String(Moghunter.parameters['P' + String(i + 1) + " Leaf Mode"] || "false");
+		Moghunter.tparticles_T[i]  = Number(Moghunter.parameters['P' + String(i + 1) + " Transition Time"] || 60);
+	};
+
 //=============================================================================
-// ** Scene Title
+// ■ Scene Title ■
 //=============================================================================	
+
+//==============================
+// ♦ ALIAS ♦  Create Foreground
+//==============================
+var _mogMZ_titleParticles_createForeground = Scene_Title.prototype.createForeground;
+Scene_Title.prototype.createForeground = function() {
+	if (!this._titleField2) {this.createTitleField2()};
+	this.createTitleParticles();	
+	_mogMZ_titleParticles_createForeground.call(this);
+};
+
+//==============================
+// ♦ ALIAS ♦  Create
+//==============================
+var _mogMZ_titleParticles_create = Scene_Title.prototype.create;
+Scene_Title.prototype.create = function() {
+	_mogMZ_titleParticles_create.call(this);
+	if (this._titleField2) {this._titleField2.children.sort((a, b) => a.z - b.z)};
+};
+
+//==============================
+// * Create Title Field 2
+//==============================
+Scene_Title.prototype.createTitleField2 = function() {
+    this._titleField2 = new Sprite();
+	this._titleField2.z = 100;
+    this.addChild(this._titleField2);
+};
+
+//==============================
+// * Create Title Particles
+//==============================
+Scene_Title.prototype.createTitleParticles = function() {
+ 	this._tparticles = []
+    for (var i = 0; i < Moghunter.tparticles_M; i++) {
+       this._tparticles[i] = new TitleParticles(i);
+	   this._tparticles[i].z = 100 + i;
+	   this._titleField2.addChild(this._tparticles[i]);
+    };   
+};
+
+//=============================================================================
+// ■ Title Particles ■
+//=============================================================================
+function TitleParticles() {
+    this.initialize.apply(this, arguments);
+};
+
+TitleParticles.prototype = Object.create(Sprite.prototype);
+TitleParticles.prototype.constructor = TitleParticles;
+
+//==============================
+// * Initialize
+//==============================
+TitleParticles.prototype.initialize = function(index) {
+    Sprite.prototype.initialize.call(this);
+	this._index = index;
+	this._enabled = String(Moghunter.tparticles_V[this._index]) === "true" ? true : false;
+	this._t = Number(Moghunter.tparticles_T[this._index]);
+    if (this._enabled) {
+		this._img = ImageManager.loadTitle2(Moghunter.tparticles_F[this._index])
+		this._start = false;
+		this._img._cw = 0;
+		this._img._ch = 0;
+		this._img._cw2 = 0;
+		this._img._ch2 = 0;		
+	};
+};	
+     
+//==============================
+// * get Data
+//==============================
+TitleParticles.prototype.getData = function() {     
+	 this._img._cw = this._img.width;
+	 this._img._cw2 = this._img._cw * 3;
+	 this._img._ch = this._img.height;
+	 this._img._ch2 = this._img._ch * 3;
+	 this.createParticles();
+};	
+ 
+//==============================
+// * create Particles
+//==============================
+TitleParticles.prototype.createParticles = function() {
+    this._spriteP = [];
+	for (var i = 0;i < Moghunter.tparticles_N[this._index]; i++){
+		 this._spriteP[i] = new Sprite(this._img);
+		 this._spriteP[i].sx = [0,Number(Moghunter.tparticles_X[this._index])];
+		 this._spriteP[i].sy = [0,Number(Moghunter.tparticles_Y[this._index])];
+		 this._spriteP[i].rt = [0,Number(Moghunter.tparticles_R[this._index])];
+		 this._spriteP[i].blendMode = Number(Moghunter.tparticles_B[this._index]);
+		 this._spriteP[i].anchor.x = Number(Moghunter.tparticles_A[this._index]);
+		 this._spriteP[i].anchor.y = Number(Moghunter.tparticles_A[this._index]);
+		 this._spriteP[i].int = true;
+		 this._spriteP[i].lef = [String(Moghunter.tparticles_L[this._index]) === "true" ? true : false,0,1.00,0];
+		 this.addChild(this._spriteP[i]);
+		 this.refreshParticles(this._spriteP[i]);
+	};
+	this._start = true;
+};	
+
+//==============================
+// * refresh Particles
+//==============================
+TitleParticles.prototype.refreshParticles = function(sprite) {
+	 if (sprite.sx[1] != 0) {
+	     var r = 0.7 + Math.abs(Math.random() * sprite.sx[1]);
+		 sprite.sx[0] = sprite.sx[1] > 0 ? r : -r;
+	 };
+	 if (sprite.sy[1] != 0) {
+	     var r = 0.7 + Math.abs(Math.random() * sprite.sy[1]);
+		 sprite.sy[0] = sprite.sy[1] > 0 ? r : -r;
+	 };
+	 if (sprite.rt[1] != 0) {
+	     var r = 0.03 + Math.abs(Math.random() * sprite.rt[1]);
+		 sprite.rt[0] = sprite.rt[1] > 0 ? r : -r;
+	 };	 
+     var r = Math.randomInt(360) * 0.01;		 
+     sprite.rotation = r;	 
+	 var pz = ((Math.random() * 0.5) * 1);
+	 sprite.scale = new PIXI.Point(0.5 + Number(pz), 0.5 + Number(pz));
+	 sprite.lef[1] = 0;	
+	 sprite.lef[2] = sprite.scale.x;
+
+	 sprite.lef[3] = 120 + Math.randomInt(180);
+	 sprite.opacity = 255;
+	 this.setPosition(sprite);
+};
+
+//==============================
+// * set Position
+//==============================
+TitleParticles.prototype.setPosition = function(sprite) {
+	if (sprite.int) {
+        this.setStartPosition(sprite);
+	} else {
+        this.setPositionX(sprite);
+        this.setPositionY(sprite);	
+	};
+};
+
+//==============================
+// * set Start Position
+//==============================
+TitleParticles.prototype.setStartPosition = function(sprite) {
+	var r = Math.randomInt(Graphics.width + this._img._cw2);
+	sprite.x = -this._img._cw + r;
+	var r = Math.randomInt(Graphics.height + this._img._ch2);
+	sprite.y = -this._img._ch + r;
+	sprite.int = false;	
+};
+
+//==============================
+// * set Position X
+//==============================
+TitleParticles.prototype.setPositionX = function(sprite) {
+    if (sprite.sx[1] > 0) {
+		var r = Math.randomInt(Graphics.width - this.lx1(sprite));
+		sprite.x = this.lx1(sprite) + r;			 
+	} else if (sprite.sx[1] < 0) {
+		var r = Math.randomInt(Graphics.width - this.lx1(sprite));
+		sprite.x = -this.lx1(sprite) + r;
+	} else {
+		var r = Math.randomInt(Graphics.width + this._img._cw * 2);
+		sprite.x = -this._img._cw + r;			
+	};
+};
+
+//==============================
+// * set Position Y
+//==============================
+TitleParticles.prototype.setPositionY = function(sprite) {
+    if (sprite.sy[1] > 0) {
+		 sprite.y = this.ly1();
+	} else if (sprite.sy[1] < 0) {
+		 sprite.y = this.ly2();
+	} else {
+		var r = Math.randomInt(Graphics.height + this._img._ch * 2);
+		sprite.y = -this._img._ch + r;
+	};
+};
+
+//==============================
+// * lx1 
+//==============================
+TitleParticles.prototype.lx1 = function(sprite) {
+   if (sprite.sx[1] > 0) {return -Graphics.width / 2;
+   } else {return -this._img._cw2};
+};
+
+//==============================
+// * lx2 
+//==============================
+TitleParticles.prototype.lx2 = function(sprite) {
+    if (sprite.sx[1] > 0) {return Graphics.width + this._img._cw2;
+	} else {return Graphics.width + Graphics.width / 2};
+};
+
+//==============================
+// * ly1
+//==============================
+TitleParticles.prototype.ly1 = function(sprite) {
+   return -this._img._ch2;
+};
+
+//==============================
+// * ly2 
+//==============================
+TitleParticles.prototype.ly2 = function(sprite) {
+	return Graphics.height + this._img._ch2
+};
+
+//==============================
+// * update Move
+//==============================
+TitleParticles.prototype.updateMove = function(sprite) {
+     sprite.x += sprite.sx[0];
+	 sprite.y += sprite.sy[0];
+	 sprite.rotation += sprite.rt[0];
+	 sprite.opacity += 15;
+	 if (sprite.lef[0]) {this.updateLeaf(sprite)};
+};
+
+//==============================
+// * update Leaf
+//==============================
+TitleParticles.prototype.updateLeaf = function(sprite) {
+	sprite.lef[3]--;
+	if (sprite.lef[3] > 0) {return}; 
+	sprite.scale.x -= 0.01;
+	if (sprite.scale.x < -sprite.lef[2]) {
+		 sprite.lef[1] = 1;
+		 sprite.scale.x = -sprite.lef[2];
+	};
+};
+
+//==============================
+// * Need Refresh
+//==============================
+TitleParticles.prototype.needRefresh = function(sprite) {
+     if (sprite.x < this.lx1(sprite)) {return true};
+	 if (sprite.x > this.lx2(sprite)) {return true};
+	 if (sprite.y < this.ly1(sprite)) {return true};
+	 if (sprite.y > this.ly2(sprite)) {return true};
+	 return false
+};
+	
+//==============================
+// * update Particles
+//==============================
+TitleParticles.prototype.updateParticles = function() {
+	 if (this._img.isReady() && !this._start) {this.getData()};
+	 if (!this._start) {return};
+	 if (!this._spriteP) {return};
+	 for (var i = 0; i < this._spriteP.length; i++) {
+		  this.updateMove(this._spriteP[i]);
+		  if (this.needRefresh(this._spriteP[i])) {this.refreshParticles(this._spriteP[i])};
+	 };
+};
 		
-//==============================
-// * Create
-//==============================
-var _alias_mog_title_particles_createBackground = Scene_Title.prototype.createBackground;
-Scene_Title.prototype.createBackground = function() {	
-    _alias_mog_title_particles_createBackground.call(this);
-	this.create_particles();
-	this.create_magic_circle();
-  };
-  
 //==============================
 // * Update
 //==============================
-var _alias_mog_title_particles_update = Scene_Title.prototype.update;
-Scene_Title.prototype.update = function() {
-    _alias_mog_title_particles_update.call(this);
-	this.update_particles();
-	this.update_magic_circle();
-};  
-  
-//==============================
-// * Create Particles
-//==============================
-//변경 : 파티클에 라이프타임 주기, 첫 스폰지역을 좀 아래로
-Scene_Title.prototype.create_particles = function() {
-	var _sprite_particles_img = ImageManager.loadTitle2("Particles");
-	this._sprite_particles = [];
-	this._sprite_particles_data = [];	
-    for (i = 0; i < Moghunter.title_particle_number; i++){
-	  this._sprite_particles.push(new Sprite(_sprite_particles_img));
-	  this.addChild(this._sprite_particles[i]);
-	  this._sprite_particles_data[i] = []
-	  this.reset_particles(i);
-	  this._sprite_particles[i].x = Math.floor((Math.random() * Graphics.boxWidth));
-	  this._sprite_particles[i].y = Math.floor((Math.random() * Graphics.boxHeight));
-	  this._sprite_particles[i].opacity = 0;
-	  this._sprite_particles[i].anchor.x = Moghunter.title_particle_anchor_x;
-	  this._sprite_particles[i].anchor.y = Moghunter.title_particle_anchor_y;
-	  this._sprite_particles[i].blendMode = Moghunter.title_particle_blend_mode;
-    };
-};
-	
-//==============================
-// * Reset Particles
-//==============================	
-//변경 : 라이프타임 0으로 리셋
-Scene_Title.prototype.reset_particles = function(i) {
-	this._sprite_particles_data[i][0] = Math.floor((Math.random() * 2) * Moghunter.title_particle_sx)
-	this._sprite_particles_data[i][1] = Math.floor((Math.random() * 2) * Moghunter.title_particle_sy)
-	this._sprite_particles_data[i][2] = ((Math.random() * Moghunter.title_particle_a));
-	this._sprite_particles[i].opacity = 0;
-	this._sprite_particles[i].x = Math.floor((Math.random() * Graphics.boxWidth));
-	var pz = ((Math.random() * 0.5) * 1);
-	this._sprite_particles[i].scale = new PIXI.Point(0.5 + Number(pz), 0.5 + Number(pz));
-	if (Moghunter.title_particle_sy < 0) { 
-	    this._sprite_particles[i].y = Graphics.boxHeight + this._sprite_particles[i].height * 2;
-	}
-	else if (Moghunter.title_particle_sy > 0)
-	{
-		this._sprite_particles[i].y = -this._sprite_particles[i].height * 2;
-	}
-	else {
-	    this._sprite_particles[i].y = Math.floor((Math.random() * Graphics.boxHeight));
-    }
-	if (this._sprite_particles_data[i][0] == 0 && this._sprite_particles_data[i][1] == 0) {
-        this._sprite_particles[i].x = -this._sprite_particles[i].width * 5;
-		this._sprite_particles_data[i][0] = 9999;
-		this._sprite_particles_data[i][1] = 9999;
-	};
-}
-
-//==============================
-// * Reset Particles C
-//==============================	
-//변경 : 라이프타임 300이상일 때 리셋, y높이 반으로 줄임
-Scene_Title.prototype.reset_particles_c = function(i) {
-	//if (this._sprite_particles_data[i] == null) {return false};
-	if (this._sprite_particles[i].x < -this._sprite_particles[i].width * 2 || this._sprite_particles[i].x > Graphics.boxWidth + this._sprite_particles[i].width * 2) {return true};
-	if (this._sprite_particles[i].y < 160 || this._sprite_particles[i].y > Graphics.boxHeight + this._sprite_particles[i].height * 2 ) {return true};
-	//if (this._sprite_particles[i].lifeTime > 500) {return true};
-	return false;
-}
-
-//==============================
-// * Update Particles
-//==============================
-//변경 : 라이프타임 1씩 증가, opacity가 120프레임까지만 증가, 240프레임부터는 감소(4씩)
-Scene_Title.prototype.update_particles = function() {	
-   for (var i = 0; i < this._sprite_particles.length; i++) {
-        this._sprite_particles[i].x += this._sprite_particles_data[i][0];
-		this._sprite_particles[i].y += this._sprite_particles_data[i][1];
-		if (this._sprite_particles[i].y > 382) {
-			this._sprite_particles[i].opacity += 2;
-		}
-		else if (this._sprite_particles[i].y < 237) {
-			this._sprite_particles[i].opacity -= 4;
-		}
-		this._sprite_particles[i].rotation += this._sprite_particles_data[i][2];
-		//this._sprite_particles[i].lifeTime += 1;
-    	if (this.reset_particles_c(i)) { this.reset_particles(i);};
-	};
-};
-
-//==============================
-// * Create Magic Circle
-//==============================
-Scene_Title.prototype.create_magic_circle = function() {
-	if (Moghunter.title_particle_circle != "true") {return};
-	this._sprite_mgc = new Sprite(ImageManager.loadTitle2("Magic_Circle"));
-	this._sprite_mgc.x = Moghunter.title_particle_circle_x;
-	this._sprite_mgc.y = Moghunter.title_particle_circle_y;
-	this._sprite_mgc.anchor.x = 0.5;
-	this._sprite_mgc.anchor.y = 0.5;
-	this._sprite_mgc.opacity = 0;
-	this._sprite_mgc.blendMode = Moghunter.title_particle_circle_blend;
-	this.addChild(this._sprite_mgc);
-}
-
-//==============================
-// * Update Magic Circle
-//==============================
-Scene_Title.prototype.update_magic_circle = function() {
-	if (Moghunter.title_particle_circle != "true") {return};
-	this._sprite_mgc.rotation += Moghunter.title_particle_circle_a;
-	this._sprite_mgc.opacity += 3;
-}
+TitleParticles.prototype.update = function() {
+	Sprite.prototype.update.call(this);
+	if (this._enabled) {this.updateParticles()};
+};	
