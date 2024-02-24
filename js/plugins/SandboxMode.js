@@ -40,6 +40,7 @@
   if (filteredSkills.length == 4) {
     // $gameMessage.add("You already have 4 skills, silly.");
     $gameVariables.setValue(339, 4);
+    $gameSwitches.setValue(1597, true);
   } else {
     let choicesArr = [
         'Lv.Max And, Fireball', 
