@@ -78,7 +78,7 @@ if (Imported.MVCommons === undefined) {
 			this._pressedTime = 0;
 			this._onTrigger(x, y);
 		}
-		TouchInput.setCursor('pointer');
+		// TouchInput.setCursor('pointer');
 	};
 
 	TouchInput._onRightButtonDown = function(event) {

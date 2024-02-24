@@ -5047,12 +5047,12 @@ function Game_CharacterAgro() {
 
 	Game_CharacterBase.prototype.canUseSkill = function (id = 616) {
 		var skill = $dataSkills[id];
-		console.log(skill, 'skill')
+		// console.log(skill, 'skill')
 		if (skill) {
-			console.log(this.usableSkills(), 'useable')
-			console.log(this.usableSkills().contains(id), 'skill1')
-			console.log(this.battler().canPaySkillCost(skill), 'skill2')
-			console.log(this.usableSkills().contains(id) && this.battler().canPaySkillCost(skill), 'skill3')
+			// console.log(this.usableSkills(), 'useable')
+			// console.log(this.usableSkills().contains(id), 'skill1')
+			// console.log(this.battler().canPaySkillCost(skill), 'skill2')
+			// console.log(this.usableSkills().contains(id) && this.battler().canPaySkillCost(skill), 'skill3')
 		}
 		//return this.battler().canPaySkillCost(skill);
 		return this.usableSkills().contains(id) && this.battler().canPaySkillCost(skill);

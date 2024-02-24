@@ -1,7 +1,7 @@
 {
     "name": "rmmz-game",
     "main": "index.html",
-    "chromium-args": "--show-fps-counter --in-process-gpu --ignore-gpu-blacklist --force-gpu-mem-available-mb=10000 --force-gpu-rasterization --enable-native-gpu-memory-buffers --enable-gpu-memory-buffer-compositor-resourcesb",
+    "chromium-args": "--force-color-profile=srgb",
     "window": {
         "title": "MyGame",
         "width": 816,
