@@ -1,3 +1,13 @@
+// Define variables to hold the cursor position
+var cursorX = 0;
+var cursorY = 0;
+
+// Listen for mouse movement and update the cursor position
+document.addEventListener('mousemove', function(event) {
+    cursorX = event.pageX;
+    cursorY = event.pageY;
+});
+
 (function($){
  
     // Use this site "https://keycode.info/" to find the keycode for the button you want.
@@ -27,6 +37,10 @@
             var enemyId = $gameVariables.value(335)
             $gameMap.copyEventFromMapToRegion(1, enemyId, 10, true)
         }
+       }
+
+       if (Input.isTriggered('#j')) { 
+        console.log(cursorX, cursorY, 'x, y');
        }
     }
   })()

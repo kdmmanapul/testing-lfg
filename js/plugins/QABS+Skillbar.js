@@ -272,26 +272,26 @@ function Sprite_SkillInfo() {
         this.skillSlot.visible = false;
 		this.addChild(this.skillSlot)
 		//���⽽��
-		var weaponSlotImageA = ImageManager.loadBitmap('img/actorhud/', 'weaponSlotA', 0, true);
-		var weaponSlotImageB = ImageManager.loadBitmap('img/actorhud/', 'weaponSlotB', 0, true);
-		this._weaponSlotImage = new Sprite();
-		this._weaponSlotImage.types = [];
-		this._weaponSlotImage.types.push(weaponSlotImageA)
-		this._weaponSlotImage.types.push(weaponSlotImageB)
-		this._weaponSlotImage.x = 522;
-		this._weaponSlotImage.y = 36;
-		this._weaponSlotImage.bitmap = this._weaponSlotImage.types[0];
-		this.addChild(this._weaponSlotImage);
-		//���� ������
-		var weaponIcon = ImageManager.loadSystem('IconSet');
-		this._weaponIcon = new Sprite_Icon(0)
-		this._weaponIcon._iconIndex = 0;
-		this._weaponIcon.setBitmap();
-		this._weaponIcon.x = 532;
-		this._weaponIcon.y = 46;
-		this._weaponIcon.scale.x = 1.3;
-		this._weaponIcon.scale.y = 1.3;
-        this.addChild(this._weaponIcon);
+		// var weaponSlotImageA = ImageManager.loadBitmap('img/actorhud/', 'weaponSlotA', 0, true);
+		// var weaponSlotImageB = ImageManager.loadBitmap('img/actorhud/', 'weaponSlotB', 0, true);
+		// this._weaponSlotImage = new Sprite();
+		// this._weaponSlotImage.types = [];
+		// this._weaponSlotImage.types.push(weaponSlotImageA)
+		// this._weaponSlotImage.types.push(weaponSlotImageB)
+		// this._weaponSlotImage.x = 522;
+		// this._weaponSlotImage.y = 36;
+		// this._weaponSlotImage.bitmap = this._weaponSlotImage.types[0];
+		// this.addChild(this._weaponSlotImage);
+		// //���� ������
+		// var weaponIcon = ImageManager.loadSystem('IconSet');
+		// this._weaponIcon = new Sprite_Icon(0)
+		// this._weaponIcon._iconIndex = 0;
+		// this._weaponIcon.setBitmap();
+		// this._weaponIcon.x = 532;
+		// this._weaponIcon.y = 46;
+		// this._weaponIcon.scale.x = 1.3;
+		// this._weaponIcon.scale.y = 1.3;
+    //     this.addChild(this._weaponIcon);
         //���� ������
         // this._weaponDurText = new Sprite();
         // this._weaponDurText.bitmap = new Bitmap(200, 40);
@@ -413,12 +413,12 @@ function Sprite_SkillInfo() {
         this._spriteIconTextFrame.visible = true;
 
         var weapon = $gameParty.leader().weapons()
-		this._weaponSlotImage.bitmap = this._weaponSlotImage.types[$gamePlayer._currentWeaponId]; 
-		this._weaponIcon._iconIndex = weapon.length > 0 ? weapon[0].iconIndex : 0
-		this._weaponIcon.x = 532 + $gamePlayer._currentWeaponId * 9;
-		this._weaponIcon.y = 46 + $gamePlayer._currentWeaponId * 7;
-        this._weaponIcon.setBitmap();
-        this._weaponIcon.setColorTone([0, 0, 0, 0])
+		// this._weaponSlotImage.bitmap = this._weaponSlotImage.types[$gamePlayer._currentWeaponId]; 
+		// this._weaponIcon._iconIndex = weapon.length > 0 ? weapon[0].iconIndex : 0
+		// this._weaponIcon.x = 532 + $gamePlayer._currentWeaponId * 9;
+		// this._weaponIcon.y = 46 + $gamePlayer._currentWeaponId * 7;
+    //     this._weaponIcon.setBitmap();
+    //     this._weaponIcon.setColorTone([0, 0, 0, 0])
 
         // this._weaponDurText.bitmap.clear();
         // if (weapon.length > 0) {
