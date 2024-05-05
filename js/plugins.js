@@ -105,5 +105,6 @@ var $plugins =
 {"name":"HIME_HiddenChoiceConditions","status":false,"description":"Allows you to hide choices with a simple event call","parameters":{}},
 {"name":"HIME_CommonEventQueue","status":true,"description":"Allows you to reserve multiple common events.","parameters":{}},
 {"name":"PlayerPointerTurn","status":true,"description":"ポインタ追跡プラグイン","parameters":{}},
-{"name":"SandboxMode","status":true,"description":"","parameters":{}}
+{"name":"SandboxMode","status":true,"description":"","parameters":{}},
+{"name":"TDDP_PixelPerfect","status":true,"description":"1.1.1 Enable pixel perfect scaling mode for your game","parameters":{"enableIngameOptions":"true","labels":"","en":"Pixel Perfect Mode","ja":"ピクセルパーフェクトモード","zh":"像素完美模式","ko":"픽셀 퍼펙트 모드","ru":"Режим Pixel Perfect"}}
 ];

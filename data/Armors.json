@@ -1,6 +1,6 @@
 [
 null,
-{"id":1,"atypeId":1,"description":"A small ribbon-shaped hairpin.  \nSo tiny!","etypeId":2,"traits":[],"iconIndex":496,"name":"Hairpin","price":8,"params":[111,90,0,0,0,0,0,0],"damage":{"critical":"","elementId":"","formula":"","type":"","variance":""},"note":""},
+{"id":1,"atypeId":1,"description":"A small ribbon-shaped hairpin.  \nSo tiny!","etypeId":2,"traits":[],"iconIndex":496,"name":"Hairpin","price":8,"params":[0,90,0,0,0,0,0,0],"damage":{"critical":"","elementId":"","formula":"","type":"","variance":""},"note":""},
 {"id":2,"atypeId":1,"description":"A small bouquet of decorative flowers. \n\\C[4]Increases critical chance by 10%\\C[0]","etypeId":2,"traits":[{"code":22,"dataId":2,"value":0.1}],"iconIndex":497,"name":"Corsage","price":8,"params":[0,11,0,0,0,0,0,0],"damage":{"critical":"","elementId":"","formula":"","type":"","variance":""},"note":""},
 {"id":3,"atypeId":0,"etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"price":0,"params":[0,0,0,0,0,0,0,0],"damage":{"critical":"","elementId":"","formula":"","type":"","variance":""},"name":"","note":""},
 {"id":4,"atypeId":1,"description":"This is a part of sailor outfit. \n\\C[4]Attack +1\\C[0]","etypeId":2,"traits":[],"iconIndex":500,"name":"Sailor Hat","note":"<stvset: 1>\n<rarity: 2>","price":12,"params":[0,1,1,0,0,0,0,0],"damage":{"critical":"","elementId":"","formula":"","type":"","variance":""}},

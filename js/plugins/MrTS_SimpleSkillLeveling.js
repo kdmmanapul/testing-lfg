@@ -96,7 +96,7 @@
 				//���� ��ų�� �� á�ٸ� ��ų�� �ش� ���� �߰� �� ����
 				if (absKeyId == null && !levelup) {
                     PRG._selectSkillMode.push(['discard', skillId]);
-                    if (SceneManager.isCurrentScene(Scene_Map)) SceneManager.push(Scene_SelectSkill)
+                    // if (SceneManager.isCurrentScene(Scene_Map)) SceneManager.push(Scene_SelectSkill)
 				}
 			}
         } else {
