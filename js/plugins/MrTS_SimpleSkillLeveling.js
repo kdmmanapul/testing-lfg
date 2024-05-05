@@ -91,7 +91,7 @@
             this._skillUsedTimes[skillId] = 0;
             _GameActor_learnSkill.call(this, skillId);
 			if (skillId > 100 && skillId < 500) {
-				// $gameTemp._infoPopup.push($dataSkills[skillId])
+				// // $gameTemp._infoPopup.push($dataSkills[skillId])
 
 				//���� ��ų�� �� á�ٸ� ��ų�� �ش� ���� �߰� �� ����
 				if (absKeyId == null && !levelup) {
