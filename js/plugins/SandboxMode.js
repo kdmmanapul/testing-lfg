@@ -17,9 +17,9 @@ document.addEventListener('mousemove', function(event) {
   
     Scene_Map.prototype.updateMain = function() {
       Alias_Scene_Map_updateMain.call(this);
-       if (Input.isTriggered('#m')) { 
-        $gameTemp.reserveCommonEvent(306); 
-       }
+      //  if (Input.isTriggered('#m')) { 
+      //   $gameTemp.reserveCommonEvent(306); 
+      //  }
 
        if (Input.isTriggered('#n')) { 
         const toggleHud = $gameSwitches.value(1600);
@@ -32,16 +32,16 @@ document.addEventListener('mousemove', function(event) {
         }
        }
 
-       if (Input.isTriggered('#b')) { 
-        for(var i=1; i<=$gameVariables.value(334);i++) {
-            var enemyId = $gameVariables.value(335)
-            $gameMap.copyEventFromMapToRegion(1, enemyId, 10, true)
-        }
-       }
+      //  if (Input.isTriggered('#b')) { 
+      //   for(var i=1; i<=$gameVariables.value(334);i++) {
+      //       var enemyId = $gameVariables.value(335)
+      //       $gameMap.copyEventFromMapToRegion(1, enemyId, 10, true)
+      //   }
+      //  }
 
-       if (Input.isTriggered('#j')) { 
-        console.log(cursorX, cursorY, 'x, y');
-       }
+      //  if (Input.isTriggered('#j')) { 
+      //   console.log(cursorX, cursorY, 'x, y');
+      //  }
     }
   })()
 

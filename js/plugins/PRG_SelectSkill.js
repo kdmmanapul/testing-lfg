@@ -214,7 +214,7 @@ Scene_SelectSkill.prototype.onSkillOk = function () {
 				rarity = $dataStates[skills[i]].rarity - 1 < 0 ? 0 : $dataStates[skills[i]].rarity - 1;
 				PRG.data.abil[rarity].push(skills[i]);
             }
-			// $gamePlayer.battler().addState(skill)
+			$gamePlayer.battler().addState(skill)
 			// $gameTemp._infoPopup.push($dataStates[skill])
 			break;
         }
