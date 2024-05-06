@@ -218,7 +218,7 @@ null,
 {"id":216,"expanded":true,"name":"MapForestBossTest","order":188,"parentId":184,"scrollX":832,"scrollY":684},
 {"id":217,"expanded":true,"name":"TutorialStage","order":218,"parentId":0,"scrollX":816,"scrollY":640},
 {"id":218,"expanded":true,"name":"BulletHellStage","order":220,"parentId":0,"scrollX":816,"scrollY":640},
-{"id":219,"expanded":true,"name":"BulletHellStageArena","order":221,"parentId":218,"scrollX":832,"scrollY":684},
+{"id":219,"expanded":true,"name":"BulletHellStageArena","order":221,"parentId":218,"scrollX":816,"scrollY":684},
 {"id":220,"expanded":true,"name":"TutorialStagee","order":219,"parentId":217,"scrollX":832,"scrollY":704},
 {"id":221,"expanded":true,"name":"MapForestBoss","order":189,"parentId":184,"scrollX":832,"scrollY":684}
 ]
