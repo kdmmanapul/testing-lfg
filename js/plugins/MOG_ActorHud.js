@@ -2062,7 +2062,7 @@ Actor_Hud.prototype.refresh_states = function () { //다시켰을때 초기값 �
 			this._state_icons[i]._stateInfo._waitCount = 0;
 			this._state_icons[i].addChild(this._state_icons[i]._stateInfo);
 			this._state_icons[i].x = this._pos_x + Moghunter.ahud_states_pos_x + i * 32 - 20;
-			this._state_icons[i].y = this._pos_y + Moghunter.ahud_states_pos_y - 35;
+			this._state_icons[i].y = this._pos_y + Moghunter.ahud_states_pos_y - 15;
 			this._state_icons[i].visible = true;
 			var sx = currentState.iconIndex % 16 * 32;
 			var sy = Math.floor(currentState.iconIndex / 16) * 32;
@@ -2169,7 +2169,7 @@ Actor_Hud.prototype.refresh_newStates = function () {
     // this._state_icons[i].x = this._pos_x + Moghunter.ahud_states_pos_x + i * 32;
     // this._state_icons[i].y = this._pos_y + Moghunter.ahud_states_pos_y;
 	this._state_icons[i].x = this._pos_x + Moghunter.ahud_states_pos_x + i * 32 - 20;
-    this._state_icons[i].y = this._pos_y + Moghunter.ahud_states_pos_y - 35;
+    this._state_icons[i].y = this._pos_y + Moghunter.ahud_states_pos_y - 15;
 
     this._state_icons[i]._iconIndex = this._newState.state.iconIndex;
     this._state_icons[i].visible = true;

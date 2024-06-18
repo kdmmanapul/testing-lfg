@@ -1343,7 +1343,7 @@ var PRG = PRG || {}; //PRG main object
 				console.log(direction == 'camp', direction)
 				switch(biome) {
 					case 'forest':
-						return 49;
+						return 8;
 					case 'dessert':
 						return 67;
 					case 'tundra':
@@ -1359,10 +1359,10 @@ var PRG = PRG || {}; //PRG main object
 				}
 			} else {
 				if ($gameVariables.value(321) == 50) {
-					$gamePlayer.reserveTransfer(63, 8, 9, null, 0);
+					$gamePlayer.reserveTransfer(221, 16, 24, null, 0);
 				} else {
 					// var random = Math.floor(Math.random() * (61-51) + 51);
-					var array = [51, 52, 53, 54]
+					var array = [175, 176, 177, 180, 181, 182, 183, 185, 186, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232]
 					var random = array[array.length * Math.random() | 0]
 					if(random == $gameMap.mapId()) {
 						// return Math.floor(Math.random() * (23-14) + 14);
@@ -1498,48 +1498,104 @@ var PRG = PRG || {}; //PRG main object
 		const mapForest = [
 			// Battle Zones
 			{
-				mapNumber: 51,
-				mapTopX: 9,
-				mapTopY: 2,
-				mapLeftX: 12,
-				mapLeftY: 7,
-				mapRightX: 14,
-				mapRightY: 5,
-				mapDownX: 9,
-				mapDownY: 9,
+				mapNumber: 175,
+				mapSpawnX: 22,
+				mapSpawnY: 3
 			},
 			{
-				mapNumber: 52,
-				mapTopX: 9,
-				mapTopY: 2,
-				mapLeftX: 12,
-				mapLeftY: 7,
-				mapRightX: 14,
-				mapRightY: 5,
-				mapDownX: 9,
-				mapDownY: 9,
+				mapNumber: 176,
+				mapSpawnX: 24,
+				mapSpawnY: 4
 			},
 			{
-				mapNumber: 53,
-				mapTopX: 9,
-				mapTopY: 2,
-				mapLeftX: 12,
-				mapLeftY: 7,
-				mapRightX: 14,
-				mapRightY: 5,
-				mapDownX: 9,
-				mapDownY: 9,
+				mapNumber: 177,
+				mapSpawnX: 18,
+				mapSpawnY: 2
 			},
 			{
-				mapNumber: 54,
-				mapTopX: 9,
-				mapTopY: 2,
-				mapLeftX: 12,
-				mapLeftY: 7,
-				mapRightX: 14,
-				mapRightY: 5,
-				mapDownX: 9,
-				mapDownY: 9,
+				mapNumber: 180,
+				mapSpawnX: 10,
+				mapSpawnY: 2
+			},
+			{
+				mapNumber: 181,
+				mapSpawnX: 10,
+				mapSpawnY: 23
+			},
+			{
+				mapNumber: 182,
+				mapSpawnX: 14,
+				mapSpawnY: 19
+			},
+			{
+				mapNumber: 183,
+				mapSpawnX: 12,
+				mapSpawnY: 22
+			},
+			{
+				mapNumber: 185,
+				mapSpawnX: 12,
+				mapSpawnY: 22
+			},
+			{
+				mapNumber: 186,
+				mapSpawnX: 13,
+				mapSpawnY: 22
+			},
+			{
+				mapNumber: 222,
+				mapSpawnX: 15,
+				mapSpawnY: 23
+			},
+			{
+				mapNumber: 223,
+				mapSpawnX: 8,
+				mapSpawnY: 21
+			},
+			{
+				mapNumber: 224,
+				mapSpawnX: 21,
+				mapSpawnY: 14
+			},
+			{
+				mapNumber: 225,
+				mapSpawnX: 8,
+				mapSpawnY: 22
+			},
+			{
+				mapNumber: 226,
+				mapSpawnX: 4,
+				mapSpawnY: 18
+			},
+			{
+				mapNumber: 227,
+				mapSpawnX: 23,
+				mapSpawnY: 14
+			},
+			{
+				mapNumber: 228,
+				mapSpawnX: 17,
+				mapSpawnY: 4
+			},
+			{
+				mapNumber: 229,
+				mapSpawnX: 14,
+				mapSpawnY: 22
+			},
+			{
+				mapNumber: 230,
+				mapSpawnX: 22,
+				mapSpawnY: 12
+			},
+			{
+				mapNumber: 231,
+				mapSpawnX: 2,
+				mapSpawnY: 13
+			},
+			{
+				mapNumber: 232,
+				mapSpawnX: 14,
+				mapSpawnY: 21
 			},
 		]
 
@@ -1591,6 +1647,9 @@ var PRG = PRG || {}; //PRG main object
 				case 'camp':
 					xMap = mapSpawn.mapCampX;
 					yMap = mapSpawn.mapCampY;
+				case 'stage':
+					xMap = mapSpawn.mapSpawnX;
+					yMap = mapSpawn.mapSpawnY;
 			}
 		}
 
