@@ -1313,18 +1313,15 @@ class JoystickController extends BaseButton{
 
         var character = $gamePlayer; // or another character object
 
-    // Clear previous movement
-    // character.clearMovement();
-
-    // Apply new movement based on angle
-    if (isRight) character.moveStraight(6);
-    if (isDown) character.moveStraight(2);
-    if (isLeft) character.moveStraight(4);
-    if (isUp) character.moveStraight(8);
-    if (isDownRight) character.moveDiagonally(6, 2);
-    if (isDownLeft) character.moveDiagonally(4, 2);
-    if (isUpRight) character.moveDiagonally(6, 8);
-    if (isUpLeft) character.moveDiagonally(4, 8);
+        // Apply new movement based on angle
+        if (isRight) character.moveStraight(6);
+        if (isDown) character.moveStraight(2);
+        if (isLeft) character.moveStraight(4);
+        if (isUp) character.moveStraight(8);
+        if (isDownRight) character.moveDiagonally(6, 2);
+        if (isDownLeft) character.moveDiagonally(4, 2);
+        if (isUpRight) character.moveDiagonally(6, 8);
+        if (isUpLeft) character.moveDiagonally(4, 8);
     }
 
     resetMoveInput(){
