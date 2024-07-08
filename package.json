@@ -1,9 +1,9 @@
 {
-    "name": "rmmz-game",
+    "name": "runebound-game",
     "main": "index.html",
-    "chromium-args" : "--in-process-gpu --ignore-gpu-blacklist --force-gpu-mem-available-mb=10000 --force-gpu-rasterization --enable-native-gpu-memory-buffers --enable-gpu-memory-buffer-compositor-resources",
+    "chromium-args" : "--disable-devtools --in-process-gpu --ignore-gpu-blacklist --force-gpu-mem-available-mb=10000 --force-gpu-rasterization --enable-native-gpu-memory-buffers --enable-gpu-memory-buffer-compositor-resources",
     "window": {
-        "title": "MyGame",
+        "title": "Runebound",
         "width": 816,
         "height": 624,
         "position": "center",
