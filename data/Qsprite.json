@@ -43466,7 +43466,7 @@
     "rows": 13,
     "anchorX": 0.5,
     "anchorY": 1,
-    "sampleImg": "C:\\Users\\KD\\Documents\\Games\\1Deploy\\1My-Game-LFG-NFT - 1 MZ\\img\\characters\\@ARune-Default.png",
+    "sampleImg": "C:\\Users\\USER\\Desktop\\Game Development [Games]\\testing-lfg\\img\\characters\\@ARune-Skeleton.png",
     "poses": {
       "move1": {
         "name": "move1",
@@ -47515,5 +47515,3320 @@
       }
     },
     "sampleImgPath": "C:\\Users\\KD\\Documents\\Games\\1My-Game-LFG-NFT\\img\\characters\\@Enemy1-windSlime.png"
+  },
+  "AGame": {
+    "name": "AGame",
+    "cols": 14,
+    "rows": 25,
+    "anchorX": 0.5,
+    "anchorY": 0.825,
+    "sampleImg": "C:\\Users\\USER\\Desktop\\Game Development [Games]\\testing-lfg\\img\\characters\\@AGame-Test.png",
+    "poses": {
+      "move1": {
+        "name": "move1",
+        "speed": 6,
+        "adjust": true,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "move2": {
+        "name": "move2",
+        "speed": 6,
+        "adjust": true,
+        "pattern": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      "move3": {
+        "name": "move3",
+        "speed": 6,
+        "adjust": true,
+        "pattern": [
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ]
+      },
+      "move4": {
+        "name": "move4",
+        "speed": 6,
+        "adjust": true,
+        "pattern": [
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48
+        ]
+      },
+      "move6": {
+        "name": "move6",
+        "speed": 6,
+        "adjust": true,
+        "pattern": [
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62
+        ]
+      },
+      "move7": {
+        "name": "move7",
+        "speed": 6,
+        "adjust": true,
+        "pattern": [
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76
+        ]
+      },
+      "move8": {
+        "name": "move8",
+        "speed": 6,
+        "adjust": true,
+        "pattern": [
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90
+        ]
+      },
+      "move9": {
+        "name": "move9",
+        "speed": 6,
+        "adjust": true,
+        "pattern": [
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104
+        ]
+      },
+      "idle1": {
+        "name": "idle1",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97
+        ]
+      },
+      "idle2": {
+        "name": "idle2",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307
+        ]
+      },
+      "idle3": {
+        "name": "idle3",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ]
+      },
+      "idle4": {
+        "name": "idle4",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          265
+        ]
+      },
+      "idle6": {
+        "name": "idle6",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          217,
+          218,
+          219,
+          220,
+          221,
+          222,
+          223
+        ]
+      },
+      "idle7": {
+        "name": "idle7",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139
+        ]
+      },
+      "idle8": {
+        "name": "idle8",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          175,
+          176,
+          177,
+          178,
+          179,
+          180,
+          181
+        ]
+      },
+      "idle9": {
+        "name": "idle9",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      "atk1": {
+        "name": "atk1",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104
+        ]
+      },
+      "atk2": {
+        "name": "atk2",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314
+        ]
+      },
+      "atk3": {
+        "name": "atk3",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62
+        ]
+      },
+      "atk4": {
+        "name": "atk4",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          266,
+          267,
+          268,
+          269,
+          270,
+          271,
+          272
+        ]
+      },
+      "atk6": {
+        "name": "atk6",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230
+        ]
+      },
+      "atk7": {
+        "name": "atk7",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      "atk8": {
+        "name": "atk8",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          182,
+          183,
+          184,
+          185,
+          186,
+          187,
+          188
+        ]
+      },
+      "atk9": {
+        "name": "atk9",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      "hit1": {
+        "name": "hit1",
+        "speed": 15,
+        "adjust": false,
+        "pattern": [
+          444
+        ]
+      },
+      "hit2": {
+        "name": "hit2",
+        "speed": 15,
+        "adjust": false,
+        "pattern": [
+          472
+        ]
+      },
+      "hit3": {
+        "name": "hit3",
+        "speed": 15,
+        "adjust": false,
+        "pattern": [
+          430
+        ]
+      },
+      "hit4": {
+        "name": "hit4",
+        "speed": 15,
+        "adjust": false,
+        "pattern": [
+          465
+        ]
+      },
+      "hit6": {
+        "name": "hit6",
+        "speed": 15,
+        "adjust": false,
+        "pattern": [
+          458
+        ]
+      },
+      "hit7": {
+        "name": "hit7",
+        "speed": 15,
+        "adjust": false,
+        "pattern": [
+          438
+        ]
+      },
+      "hit8": {
+        "name": "hit8",
+        "speed": 15,
+        "adjust": false,
+        "pattern": [
+          453
+        ]
+      },
+      "hit9": {
+        "name": "hit9",
+        "speed": 15,
+        "adjust": false,
+        "pattern": [
+          422
+        ]
+      },
+      "cast1": {
+        "name": "cast1",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118
+        ]
+      },
+      "cast2": {
+        "name": "cast2",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76
+        ]
+      },
+      "cast3": {
+        "name": "cast3",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          74,
+          75,
+          74,
+          75,
+          74,
+          75
+        ]
+      },
+      "cast4": {
+        "name": "cast4",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118
+        ]
+      },
+      "cast6": {
+        "name": "cast6",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76
+        ]
+      },
+      "cast7": {
+        "name": "cast7",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160
+        ]
+      },
+      "cast8": {
+        "name": "cast8",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160
+        ]
+      },
+      "cast9": {
+        "name": "cast9",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ]
+      },
+      "bast1": {
+        "name": "bast1",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118
+        ]
+      },
+      "bast2": {
+        "name": "bast2",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76
+        ]
+      },
+      "bast3": {
+        "name": "bast3",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76
+        ]
+      },
+      "bast4": {
+        "name": "bast4",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118
+        ]
+      },
+      "bast6": {
+        "name": "bast6",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76
+        ]
+      },
+      "bast7": {
+        "name": "bast7",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160
+        ]
+      },
+      "bast8": {
+        "name": "bast8",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160
+        ]
+      },
+      "bast9": {
+        "name": "bast9",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ]
+      },
+      "btk1": {
+        "name": "btk1",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111
+        ]
+      },
+      "btk2": {
+        "name": "btk2",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321
+        ]
+      },
+      "btk3": {
+        "name": "btk3",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69
+        ]
+      },
+      "btk4": {
+        "name": "btk4",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          273,
+          274,
+          275,
+          276,
+          277,
+          278,
+          279
+        ]
+      },
+      "btk6": {
+        "name": "btk6",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237
+        ]
+      },
+      "btk7": {
+        "name": "btk7",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153
+        ]
+      },
+      "btk8": {
+        "name": "btk8",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195
+        ]
+      },
+      "btk9": {
+        "name": "btk9",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ]
+      },
+      "dead1": {
+        "name": "dead1",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ]
+      },
+      "dead2": {
+        "name": "dead2",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ]
+      },
+      "dead3": {
+        "name": "dead3",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83
+        ]
+      },
+      "dead4": {
+        "name": "dead4",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ]
+      },
+      "dead6": {
+        "name": "dead6",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83
+        ]
+      },
+      "dead7": {
+        "name": "dead7",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125
+        ]
+      },
+      "dead8": {
+        "name": "dead8",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125
+        ]
+      },
+      "dead9": {
+        "name": "dead9",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167
+        ]
+      },
+      "sitA2": {
+        "name": "sitA2",
+        "speed": 8,
+        "adjust": false,
+        "pattern": [
+          138,
+          218
+        ]
+      },
+      "sitA4": {
+        "name": "sitA4",
+        "speed": 8,
+        "adjust": false,
+        "pattern": [
+          138,
+          218
+        ]
+      },
+      "sitA6": {
+        "name": "sitA6",
+        "speed": 8,
+        "adjust": false,
+        "pattern": [
+          138,
+          218
+        ]
+      },
+      "sitA8": {
+        "name": "sitA8",
+        "speed": 8,
+        "adjust": false,
+        "pattern": [
+          138,
+          218
+        ]
+      },
+      "sitA1": {
+        "name": "sitA1",
+        "speed": 8,
+        "adjust": false,
+        "pattern": [
+          138,
+          218
+        ]
+      },
+      "sitA3": {
+        "name": "sitA3",
+        "speed": 8,
+        "adjust": false,
+        "pattern": [
+          138,
+          218
+        ]
+      },
+      "sitA7": {
+        "name": "sitA7",
+        "speed": 8,
+        "adjust": false,
+        "pattern": [
+          138,
+          218
+        ]
+      },
+      "sitA9": {
+        "name": "sitA9",
+        "speed": 8,
+        "adjust": false,
+        "pattern": [
+          138,
+          218
+        ]
+      },
+      "sitB1": {
+        "name": "sitB1",
+        "speed": 20,
+        "adjust": false,
+        "pattern": [
+          122,
+          114,
+          123,
+          123,
+          123,
+          123,
+          123,
+          123,
+          123,
+          124,
+          124,
+          124,
+          124,
+          124,
+          124,
+          124
+        ]
+      },
+      "sitB2": {
+        "name": "sitB2",
+        "speed": 15,
+        "adjust": false,
+        "pattern": [
+          122,
+          114,
+          123,
+          123,
+          123,
+          123,
+          123,
+          123,
+          123,
+          124,
+          124,
+          124,
+          124,
+          124,
+          124,
+          124,
+          124,
+          124,
+          124,
+          124,
+          124,
+          124,
+          124,
+          124,
+          124,
+          124,
+          124,
+          124,
+          124,
+          124,
+          124,
+          124
+        ]
+      },
+      "sitB3": {
+        "name": "sitB3",
+        "speed": 15,
+        "adjust": false,
+        "pattern": [
+          115
+        ]
+      },
+      "sitB4": {
+        "name": "sitB4",
+        "speed": 15,
+        "adjust": false,
+        "pattern": [
+          115
+        ]
+      },
+      "sitB6": {
+        "name": "sitB6",
+        "speed": 15,
+        "adjust": false,
+        "pattern": [
+          115
+        ]
+      },
+      "sitB7": {
+        "name": "sitB7",
+        "speed": 15,
+        "adjust": false,
+        "pattern": [
+          115
+        ]
+      },
+      "sitB8": {
+        "name": "sitB8",
+        "speed": 15,
+        "adjust": false,
+        "pattern": [
+          115
+        ]
+      },
+      "sitB9": {
+        "name": "sitB9",
+        "speed": 15,
+        "adjust": false,
+        "pattern": [
+          115
+        ]
+      },
+      "ctk1": {
+        "name": "ctk1",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111
+        ]
+      },
+      "ctk2": {
+        "name": "ctk2",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321
+        ]
+      },
+      "ctk3": {
+        "name": "ctk3",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69
+        ]
+      },
+      "ctk4": {
+        "name": "ctk4",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          273,
+          274,
+          275,
+          276,
+          277,
+          278,
+          279
+        ]
+      },
+      "ctk6": {
+        "name": "ctk6",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237
+        ]
+      },
+      "ctk7": {
+        "name": "ctk7",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153
+        ]
+      },
+      "ctk8": {
+        "name": "ctk8",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195
+        ]
+      },
+      "ctk9": {
+        "name": "ctk9",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ]
+      },
+      "btkmove1": {
+        "name": "btkmove1",
+        "speed": 6,
+        "adjust": true,
+        "pattern": [
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90
+        ]
+      },
+      "btkmove2": {
+        "name": "btkmove2",
+        "speed": 6,
+        "adjust": true,
+        "pattern": [
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300
+        ]
+      },
+      "btkmove3": {
+        "name": "btkmove3",
+        "speed": 6,
+        "adjust": true,
+        "pattern": [
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48
+        ]
+      },
+      "btkmove4": {
+        "name": "btkmove4",
+        "speed": 6,
+        "adjust": true,
+        "pattern": [
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258
+        ]
+      },
+      "btkmove6": {
+        "name": "btkmove6",
+        "speed": 6,
+        "adjust": true,
+        "pattern": [
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          216
+        ]
+      },
+      "btkmove7": {
+        "name": "btkmove7",
+        "speed": 6,
+        "adjust": true,
+        "pattern": [
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132
+        ]
+      },
+      "btkmove8": {
+        "name": "btkmove8",
+        "speed": 6,
+        "adjust": true,
+        "pattern": [
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174
+        ]
+      },
+      "btkmove9": {
+        "name": "btkmove9",
+        "speed": 6,
+        "adjust": true,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "btkidle1": {
+        "name": "btkidle1",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          109,
+          110,
+          111
+        ]
+      },
+      "btkidle2": {
+        "name": "btkidle2",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          319,
+          320,
+          321
+        ]
+      },
+      "btkidle3": {
+        "name": "btkidle3",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          67,
+          68,
+          69
+        ]
+      },
+      "btkidle4": {
+        "name": "btkidle4",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          277,
+          278,
+          279
+        ]
+      },
+      "btkidle6": {
+        "name": "btkidle6",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          235,
+          236,
+          237
+        ]
+      },
+      "btkidle7": {
+        "name": "btkidle7",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          151,
+          152,
+          153
+        ]
+      },
+      "btkidle8": {
+        "name": "btkidle8",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          193,
+          194,
+          195
+        ]
+      },
+      "btkidle9": {
+        "name": "btkidle9",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          25,
+          26,
+          27
+        ]
+      },
+      "eva1": {
+        "name": "eva1",
+        "speed": 3,
+        "adjust": false,
+        "pattern": [
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118
+        ]
+      },
+      "eva2": {
+        "name": "eva2",
+        "speed": 3,
+        "adjust": false,
+        "pattern": [
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328
+        ]
+      },
+      "eva3": {
+        "name": "eva3",
+        "speed": 3,
+        "adjust": false,
+        "pattern": [
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76
+        ]
+      },
+      "eva4": {
+        "name": "eva4",
+        "speed": 3,
+        "adjust": false,
+        "pattern": [
+          280,
+          281,
+          282,
+          283,
+          284,
+          285,
+          286
+        ]
+      },
+      "eva6": {
+        "name": "eva6",
+        "speed": 3,
+        "adjust": false,
+        "pattern": [
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244
+        ]
+      },
+      "eva7": {
+        "name": "eva7",
+        "speed": 3,
+        "adjust": false,
+        "pattern": [
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160
+        ]
+      },
+      "eva8": {
+        "name": "eva8",
+        "speed": 3,
+        "adjust": false,
+        "pattern": [
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202
+        ]
+      },
+      "eva9": {
+        "name": "eva9",
+        "speed": 3,
+        "adjust": false,
+        "pattern": [
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ]
+      },
+      "idleA2x1": {
+        "name": "idleA2x1",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          469,
+          470,
+          471,
+          472,
+          473,
+          474,
+          475
+        ]
+      },
+      "idleA2x2": {
+        "name": "idleA2x2",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          469,
+          470,
+          471,
+          472,
+          473,
+          474,
+          475
+        ]
+      },
+      "idleA2x3": {
+        "name": "idleA2x3",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          469,
+          470,
+          471,
+          472,
+          473,
+          474,
+          475
+        ]
+      },
+      "idleB2x7": {
+        "name": "idleB2x7",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209
+        ]
+      },
+      "idleB2x8": {
+        "name": "idleB2x8",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209
+        ]
+      },
+      "idleB2x9": {
+        "name": "idleB2x9",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209
+        ]
+      },
+      "idleC1": {
+        "name": "idleC1",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384
+        ]
+      },
+      "idleC2": {
+        "name": "idleC2",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391
+        ]
+      },
+      "idleC3": {
+        "name": "idleC3",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391
+        ]
+      },
+      "idleC4": {
+        "name": "idleC4",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391
+        ]
+      },
+      "idleC6": {
+        "name": "idleC6",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391
+        ]
+      },
+      "idleC7": {
+        "name": "idleC7",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307
+        ]
+      },
+      "idleC8": {
+        "name": "idleC8",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307
+        ]
+      },
+      "idleC9": {
+        "name": "idleC9",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307
+        ]
+      },
+      "rondo2": {
+        "name": "rondo2",
+        "speed": 2,
+        "adjust": false,
+        "pattern": [
+          16,
+          17,
+          226,
+          227,
+          58,
+          59,
+          310,
+          311,
+          268,
+          269,
+          142,
+          143,
+          184,
+          185
+        ]
+      },
+      "lookaround2": {
+        "name": "lookaround2",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          56,
+          57,
+          60,
+          61,
+          62
+        ]
+      },
+      "lookaround8": {
+        "name": "lookaround8",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          14,
+          15,
+          18,
+          19,
+          20
+        ]
+      },
+      "godown2": {
+        "name": "godown2",
+        "speed": 20,
+        "adjust": false,
+        "pattern": [
+          219,
+          138,
+          140,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "getup2": {
+        "name": "getup2",
+        "speed": 15,
+        "adjust": false,
+        "pattern": [
+          139,
+          139,
+          139,
+          139,
+          139,
+          139,
+          139,
+          139,
+          139,
+          139,
+          139,
+          139,
+          139,
+          139,
+          139,
+          139,
+          140,
+          141,
+          141,
+          141,
+          141,
+          138,
+          218,
+          4,
+          4
+        ]
+      },
+      "push2": {
+        "name": "push2",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          306,
+          307,
+          308,
+          307
+        ]
+      },
+      "push4": {
+        "name": "push4",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          309,
+          310,
+          311,
+          310
+        ]
+      },
+      "push6": {
+        "name": "push6",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          312,
+          313,
+          314,
+          313
+        ]
+      },
+      "push8": {
+        "name": "push8",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          315,
+          316,
+          317,
+          316
+        ]
+      },
+      "lookup8": {
+        "name": "lookup8",
+        "speed": 20,
+        "adjust": false,
+        "pattern": [
+          239,
+          239,
+          239,
+          239,
+          239,
+          19
+        ]
+      },
+      "liftfoot8": {
+        "name": "liftfoot8",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          216,
+          217,
+          217
+        ]
+      },
+      "catk1": {
+        "name": "catk1",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104
+        ]
+      },
+      "catk2": {
+        "name": "catk2",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314
+        ]
+      },
+      "catk3": {
+        "name": "catk3",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62
+        ]
+      },
+      "catk4": {
+        "name": "catk4",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          266,
+          267,
+          268,
+          269,
+          270,
+          271,
+          272
+        ]
+      },
+      "catk6": {
+        "name": "catk6",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230
+        ]
+      },
+      "catk7": {
+        "name": "catk7",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      "catk8": {
+        "name": "catk8",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          182,
+          183,
+          184,
+          185,
+          186,
+          187,
+          188
+        ]
+      },
+      "catk9": {
+        "name": "catk9",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      "dtk1": {
+        "name": "dtk1",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111
+        ]
+      },
+      "dtk2": {
+        "name": "dtk2",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321
+        ]
+      },
+      "dtk3": {
+        "name": "dtk3",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69
+        ]
+      },
+      "dtk4": {
+        "name": "dtk4",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          273,
+          274,
+          275,
+          276,
+          277,
+          278,
+          279
+        ]
+      },
+      "dtk6": {
+        "name": "dtk6",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237
+        ]
+      },
+      "dtk7": {
+        "name": "dtk7",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153
+        ]
+      },
+      "dtk8": {
+        "name": "dtk8",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195
+        ]
+      },
+      "dtk9": {
+        "name": "dtk9",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ]
+      },
+      "etk1": {
+        "name": "etk1",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104
+        ]
+      },
+      "etk2": {
+        "name": "etk2",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314
+        ]
+      },
+      "etk3": {
+        "name": "etk3",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62
+        ]
+      },
+      "etk4": {
+        "name": "etk4",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          266,
+          267,
+          268,
+          269,
+          270,
+          271,
+          272
+        ]
+      },
+      "etk6": {
+        "name": "etk6",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230
+        ]
+      },
+      "etk7": {
+        "name": "etk7",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      "etk8": {
+        "name": "etk8",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          182,
+          183,
+          184,
+          185,
+          186,
+          187,
+          188
+        ]
+      },
+      "etk9": {
+        "name": "etk9",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      "ftk1": {
+        "name": "ftk1",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104
+        ]
+      },
+      "ftk2_1": {
+        "name": "ftk2_1",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111
+        ]
+      },
+      "ftk3_1": {
+        "name": "ftk3_1",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104
+        ]
+      },
+      "ftk2": {
+        "name": "ftk2",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314
+        ]
+      },
+      "ftk2_2": {
+        "name": "ftk2_2",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321
+        ]
+      },
+      "ftk3_2": {
+        "name": "ftk3_2",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314
+        ]
+      },
+      "ftk3": {
+        "name": "ftk3",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62
+        ]
+      },
+      "ftk2_3": {
+        "name": "ftk2_3",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69
+        ]
+      },
+      "ftk3_3": {
+        "name": "ftk3_3",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62
+        ]
+      },
+      "ftk4": {
+        "name": "ftk4",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          266,
+          267,
+          268,
+          269,
+          270,
+          271,
+          272
+        ]
+      },
+      "ftk2_4": {
+        "name": "ftk2_4",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          273,
+          274,
+          275,
+          276,
+          277,
+          278,
+          279
+        ]
+      },
+      "ftk3_4": {
+        "name": "ftk3_4",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          266,
+          267,
+          268,
+          269,
+          270,
+          271,
+          272
+        ]
+      },
+      "ftk6": {
+        "name": "ftk6",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230
+        ]
+      },
+      "ftk2_6": {
+        "name": "ftk2_6",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237
+        ]
+      },
+      "ftk3_6": {
+        "name": "ftk3_6",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230
+        ]
+      },
+      "ftk7": {
+        "name": "ftk7",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      "ftk2_7": {
+        "name": "ftk2_7",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153
+        ]
+      },
+      "ftk3_7": {
+        "name": "ftk3_7",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      "ftk8": {
+        "name": "ftk8",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          182,
+          183,
+          184,
+          185,
+          186,
+          187,
+          188
+        ]
+      },
+      "ftk2_8": {
+        "name": "ftk2_8",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195
+        ]
+      },
+      "ftk3_8": {
+        "name": "ftk3_8",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          182,
+          183,
+          184,
+          185,
+          186,
+          187,
+          188
+        ]
+      },
+      "ftk9": {
+        "name": "ftk9",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      "ftk2_9": {
+        "name": "ftk2_9",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ]
+      },
+      "ftk3_9": {
+        "name": "ftk3_9",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      "slide3": {
+        "name": "slide3",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          172,
+          173,
+          178,
+          179,
+          179,
+          179,
+          179,
+          179,
+          179,
+          220,
+          138,
+          218,
+          224,
+          223
+        ]
+      },
+      "slide4": {
+        "name": "slide4",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          172,
+          173,
+          178,
+          179,
+          179,
+          179,
+          179,
+          179,
+          179,
+          220,
+          138,
+          218,
+          224,
+          223
+        ]
+      },
+      "slide6": {
+        "name": "slide6",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          172,
+          173,
+          178,
+          179,
+          179,
+          179,
+          179,
+          179,
+          179,
+          220,
+          138,
+          218,
+          224,
+          223
+        ]
+      },
+      "slide9": {
+        "name": "slide9",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          172,
+          173,
+          178,
+          179,
+          179,
+          179,
+          179,
+          179,
+          179,
+          220,
+          138,
+          218,
+          224,
+          223
+        ]
+      },
+      "falldown8": {
+        "name": "falldown8",
+        "speed": 14,
+        "adjust": false,
+        "pattern": [
+          184,
+          185,
+          185,
+          185,
+          185,
+          185,
+          185,
+          185,
+          185,
+          185
+        ]
+      },
+      "facehm2": {
+        "name": "facehm2",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          289
+        ]
+      },
+      "facehm4": {
+        "name": "facehm4",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          301
+        ]
+      },
+      "facehm6": {
+        "name": "facehm6",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          295
+        ]
+      },
+      "facehm8": {
+        "name": "facehm8",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          289
+        ]
+      },
+      "facesmile2": {
+        "name": "facesmile2",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          293
+        ]
+      },
+      "facesmile4": {
+        "name": "facesmile4",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          305
+        ]
+      },
+      "facesmile6": {
+        "name": "facesmile6",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          299
+        ]
+      },
+      "facesmile8": {
+        "name": "facesmile8",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          293
+        ]
+      },
+      "facesurp2": {
+        "name": "facesurp2",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          290
+        ]
+      },
+      "facesurp4": {
+        "name": "facesurp4",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          302
+        ]
+      },
+      "facesurp6": {
+        "name": "facesurp6",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          296
+        ]
+      },
+      "facesurp8": {
+        "name": "facesurp8",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          290
+        ]
+      },
+      "faceang2": {
+        "name": "faceang2",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          291
+        ]
+      },
+      "faceang4": {
+        "name": "faceang4",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          303
+        ]
+      },
+      "faceang6": {
+        "name": "faceang6",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          297
+        ]
+      },
+      "faceang8": {
+        "name": "faceang8",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          291
+        ]
+      },
+      "gtk1": {
+        "name": "gtk1",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          441,
+          442,
+          443,
+          444,
+          445,
+          446,
+          447
+        ]
+      },
+      "gtk2": {
+        "name": "gtk2",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          469,
+          470,
+          471,
+          472,
+          473,
+          474,
+          475
+        ]
+      },
+      "gtk3": {
+        "name": "gtk3",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433
+        ]
+      },
+      "gtk4": {
+        "name": "gtk4",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          462,
+          463,
+          464,
+          465,
+          466,
+          467,
+          468
+        ]
+      },
+      "gtk6": {
+        "name": "gtk6",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          455,
+          456,
+          457,
+          458,
+          459,
+          460,
+          461
+        ]
+      },
+      "gtk7": {
+        "name": "gtk7",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          447,
+          447,
+          447,
+          448,
+          449,
+          449
+        ]
+      },
+      "gtk8": {
+        "name": "gtk8",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          450,
+          450,
+          450,
+          451,
+          452,
+          452
+        ]
+      },
+      "gtk9": {
+        "name": "gtk9",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          453,
+          453,
+          453,
+          454,
+          455,
+          455
+        ]
+      },
+      "gtk2_1": {
+        "name": "gtk2_1",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          108,
+          108,
+          371,
+          372,
+          373,
+          373
+        ]
+      },
+      "gtk2_2": {
+        "name": "gtk2_2",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          111,
+          111,
+          379,
+          380,
+          381,
+          381
+        ]
+      },
+      "gtk2_3": {
+        "name": "gtk2_3",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          114,
+          114,
+          387,
+          388,
+          389,
+          389
+        ]
+      },
+      "gtk2_4": {
+        "name": "gtk2_4",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          117,
+          117,
+          403,
+          404,
+          405,
+          405
+        ]
+      },
+      "gtk2_6": {
+        "name": "gtk2_6",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          120,
+          120,
+          395,
+          396,
+          397,
+          397
+        ]
+      },
+      "gtk2_7": {
+        "name": "gtk2_7",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          123,
+          123,
+          411,
+          412,
+          413,
+          413
+        ]
+      },
+      "gtk2_8": {
+        "name": "gtk2_8",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          126,
+          126,
+          419,
+          420,
+          421,
+          421
+        ]
+      },
+      "gtk2_9": {
+        "name": "gtk2_9",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          129,
+          129,
+          427,
+          428,
+          429,
+          429
+        ]
+      },
+      "htk1": {
+        "name": "htk1",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          109,
+          109,
+          109
+        ]
+      },
+      "htk2": {
+        "name": "htk2",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          112,
+          112,
+          112
+        ]
+      },
+      "htk3": {
+        "name": "htk3",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          115,
+          115,
+          115
+        ]
+      },
+      "htk4": {
+        "name": "htk4",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          118,
+          118,
+          118
+        ]
+      },
+      "htk6": {
+        "name": "htk6",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          121,
+          121,
+          121
+        ]
+      },
+      "htk7": {
+        "name": "htk7",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          124,
+          124,
+          124
+        ]
+      },
+      "htk8": {
+        "name": "htk8",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          127,
+          127,
+          127
+        ]
+      },
+      "htk9": {
+        "name": "htk9",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          130,
+          130,
+          130
+        ]
+      },
+      "grd1": {
+        "name": "grd1",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          84,
+          85,
+          86,
+          110,
+          110,
+          110,
+          110
+        ]
+      },
+      "grd2": {
+        "name": "grd2",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          87,
+          88,
+          89,
+          113,
+          113,
+          113,
+          113
+        ]
+      },
+      "grd3": {
+        "name": "grd3",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          90,
+          91,
+          92,
+          116,
+          116,
+          116,
+          116
+        ]
+      },
+      "grd4": {
+        "name": "grd4",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          93,
+          94,
+          95,
+          119,
+          119,
+          119,
+          119
+        ]
+      },
+      "grd6": {
+        "name": "grd6",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          96,
+          97,
+          98,
+          122,
+          122,
+          122,
+          122
+        ]
+      },
+      "grd7": {
+        "name": "grd7",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          99,
+          100,
+          101,
+          125,
+          125,
+          125,
+          125
+        ]
+      },
+      "grd8": {
+        "name": "grd8",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          102,
+          103,
+          104,
+          128,
+          128,
+          128,
+          128
+        ]
+      },
+      "grd9": {
+        "name": "grd9",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          105,
+          106,
+          107,
+          131,
+          131,
+          131,
+          131
+        ]
+      },
+      "loopCtk4": {
+        "name": "loopCtk4",
+        "speed": 600,
+        "adjust": false,
+        "pattern": [
+          117
+        ]
+      },
+      "sleep2": {
+        "name": "sleep2",
+        "speed": 30,
+        "adjust": false,
+        "pattern": [
+          296,
+          297
+        ]
+      },
+      "sleep8": {
+        "name": "sleep8",
+        "speed": 30,
+        "adjust": false,
+        "pattern": [
+          296,
+          297
+        ]
+      },
+      "sleepb8": {
+        "name": "sleepb8",
+        "speed": 30,
+        "adjust": false,
+        "pattern": [
+          296,
+          297,
+          296,
+          300,
+          300,
+          294
+        ]
+      },
+      "oratosit8": {
+        "name": "oratosit8",
+        "speed": 600,
+        "adjust": false,
+        "pattern": [
+          294
+        ]
+      },
+      "oratojump8": {
+        "name": "oratojump8",
+        "speed": 12,
+        "adjust": false,
+        "pattern": [
+          259,
+          258
+        ]
+      },
+      "gather8": {
+        "name": "gather8",
+        "speed": 30,
+        "adjust": false,
+        "pattern": [
+          302,
+          303,
+          304,
+          303,
+          304,
+          303,
+          304,
+          302
+        ]
+      },
+      "fakegtk8": {
+        "name": "fakegtk8",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          450,
+          450,
+          450,
+          450,
+          450,
+          450,
+          451,
+          452,
+          452
+        ]
+      },
+      "dash1": {
+        "name": "dash1",
+        "speed": 6,
+        "adjust": true,
+        "pattern": [
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90
+        ]
+      },
+      "dash2": {
+        "name": "dash2",
+        "speed": 6,
+        "adjust": true,
+        "pattern": [
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300
+        ]
+      },
+      "dash3": {
+        "name": "dash3",
+        "speed": 6,
+        "adjust": true,
+        "pattern": [
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48
+        ]
+      },
+      "dash4": {
+        "name": "dash4",
+        "speed": 6,
+        "adjust": true,
+        "pattern": [
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258
+        ]
+      },
+      "dash6": {
+        "name": "dash6",
+        "speed": 6,
+        "adjust": true,
+        "pattern": [
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          216
+        ]
+      },
+      "dash7": {
+        "name": "dash7",
+        "speed": 6,
+        "adjust": true,
+        "pattern": [
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132
+        ]
+      },
+      "dash8": {
+        "name": "dash8",
+        "speed": 6,
+        "adjust": true,
+        "pattern": [
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174
+        ]
+      },
+      "dash9": {
+        "name": "dash9",
+        "speed": 6,
+        "adjust": true,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "sampleImgPath": "C:\\Users\\KD\\Documents\\Games\\1My-Game-LFG-NFT\\img\\characters\\@Actor1-Lotte.png"
   }
 }
