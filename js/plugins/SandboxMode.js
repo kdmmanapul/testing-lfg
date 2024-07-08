@@ -99,6 +99,31 @@ document.addEventListener('mousemove', function(event) {
         $gameVariables.setValue(variable, page)
         // $gameInterp.command119(["SkillSelection"]);
     }
+
+    if (TouchInput.isPressed()) {
+      let x = $gamePlayer.x;
+      let y = $gamePlayer.y;
+
+      switch ($gamePlayer.direction()) {
+          case 2: // Down
+              y += 1;
+              break;
+          case 4: // Left
+              x -= 1;
+              break;
+          case 6: // Right
+              x += 1;
+              break;
+          case 8: // Up
+              y -= 1;
+              break;
+      }
+
+      const canvasX = x * $gameMap.tileWidth();
+      const canvasY = y * $gameMap.tileHeight();
+
+      console.log(`Canvas Coordinates: X=${canvasX}, Y=${canvasY}`);
+  }
   }
 
   // [Second Page]
