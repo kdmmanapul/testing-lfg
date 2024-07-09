@@ -124,6 +124,60 @@ document.addEventListener('mousemove', function(event) {
 
     //   console.log(`Canvas Coordinates: X=${canvasX}, Y=${canvasY}`);
     // }
+
+    // SIMULATE MOUSE CLICKS
+
+    // TouchInput._mousePressed = true;
+    // TouchInput._pressedTime = 0;
+    // TouchInput._onTrigger(x, y);
+
+    // TouchInput._mousePressed = false;
+    // TouchInput._onRelease(x, y);
+
+    // const player = $gamePlayer;
+    // const direction = player.direction();
+    // let x = player.screenX();
+    // let y = player.screenY();
+
+    // switch (direction) {
+    //     case 2: // Down
+    //         y += $gameMap.tileHeight();
+    //         break;
+    //     case 4: // Left
+    //         x -= $gameMap.tileWidth();
+    //         break;
+    //     case 6: // Right
+    //         x += $gameMap.tileWidth();
+    //         break;
+    //     case 8: // Up
+    //         y -= $gameMap.tileHeight();
+    //         break;
+    //     case 1: // Down-Left
+    //         y += $gameMap.tileHeight();
+    //         x -= $gameMap.tileWidth();
+    //         break;
+    //     case 3: // Down-Right
+    //         y += $gameMap.tileHeight();
+    //         x += $gameMap.tileWidth();
+    //         break;
+    //     case 7: // Up-Left
+    //         y -= $gameMap.tileHeight();
+    //         x -= $gameMap.tileWidth();
+    //         break;
+    //     case 9: // Up-Right
+    //         y -= $gameMap.tileHeight();
+    //         x += $gameMap.tileWidth();
+    //         break;
+    // }
+
+    // TouchInput.isPressed();
+    // TouchInput._mousePressed = true;
+    // TouchInput._pressedTime = 0;
+    // console.log(x, y, "x, y");
+    // TouchInput._onTrigger(x, y);
+
+    // SIMULATE MOUSE CLICKS END
+
   }
 
   // [Second Page]
@@ -331,3 +385,56 @@ document.addEventListener('mousemove', function(event) {
 //         // $gameInterp.command119(["SkillSelection"]);
 //     }
 //   }
+
+// SIMULATE MOUSE CLICKS
+
+// TouchInput._mousePressed = true;
+// TouchInput._pressedTime = 0;
+// TouchInput._onTrigger(x, y);
+
+// TouchInput._mousePressed = false;
+// TouchInput._onRelease(x, y);
+
+// const player = $gamePlayer;
+// const direction = player.direction();
+// let x = player.screenX();
+// let y = player.screenY();
+
+// switch (direction) {
+//     case 2: // Down
+//         y += $gameMap.tileHeight();
+//         break;
+//     case 4: // Left
+//         x -= $gameMap.tileWidth();
+//         break;
+//     case 6: // Right
+//         x += $gameMap.tileWidth();
+//         break;
+//     case 8: // Up
+//         y -= $gameMap.tileHeight();
+//         break;
+//     case 1: // Down-Left
+//         y += $gameMap.tileHeight();
+//         x -= $gameMap.tileWidth();
+//         break;
+//     case 3: // Down-Right
+//         y += $gameMap.tileHeight();
+//         x += $gameMap.tileWidth();
+//         break;
+//     case 7: // Up-Left
+//         y -= $gameMap.tileHeight();
+//         x -= $gameMap.tileWidth();
+//         break;
+//     case 9: // Up-Right
+//         y -= $gameMap.tileHeight();
+//         x += $gameMap.tileWidth();
+//         break;
+// }
+
+// TouchInput.isPressed();
+// TouchInput._mousePressed = true;
+// TouchInput._pressedTime = 0;
+// console.log(x, y, "x, y");
+// TouchInput._onTrigger(x, y);
+
+// SIMULATE MOUSE CLICKS END
