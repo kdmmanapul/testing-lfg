@@ -250,7 +250,7 @@ Scene_SelectSkill.prototype.onSkillOk = function () {
 			$gameParty.gainItem($dataWeapons[weaponId], 1);
 			actor.changeEquip(0, $dataWeapons[weaponId]);
 			// You might want to add some visual or audio feedback here
-
+			SoundManager.playEquip();
 			$gameTemp._infoPopup.push($dataWeapons[weaponId]);
 			// QABSManager.startPopup('QABS-EQUIP', {
 			// 	x: $gamePlayer.cx(),

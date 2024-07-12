@@ -903,8 +903,8 @@ if (Imported.MVCommons === undefined) {
 	};
 
 	Window_GameEnd.prototype.makeCommandList = function () {
-		this.addCommand(TextManager.toTitle, 'toTitle');
-		this.addCommand(TextManager.options, 'option');
+		// this.addCommand(TextManager.toTitle, 'toTitle');
+		// this.addCommand(TextManager.options, 'option');
 		this.addCommand(TextManager.cancel, 'cancel');
 	};
 

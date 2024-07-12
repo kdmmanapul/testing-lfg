@@ -14,6 +14,11 @@ document.addEventListener('mousemove', function(event) {
     // https://www.toptal.com/developers/keycode
     Input.keyMapper[191] = "test";
     var Alias_Scene_Map_updateMain = Scene_Map.prototype.updateMain;
+
+    AudioManager.bgmVolume = 50;
+    AudioManager.bgsVolume = 20;
+    AudioManager.meVolume = 20;
+    AudioManager.seVolume = 20;
   
     Scene_Map.prototype.updateMain = function() {
       Alias_Scene_Map_updateMain.call(this);
@@ -21,16 +26,16 @@ document.addEventListener('mousemove', function(event) {
       //   $gameTemp.reserveCommonEvent(306); 
       //  }
 
-       if (Input.isTriggered('#n')) { 
-        const toggleHud = $gameSwitches.value(1600);
-        $gameSwitches.setValue(1600, !toggleHud);
-        $gameTemp.reserveCommonEvent(307);
-        if (toggleHud) {
-            document.body.style.cursor = 'none';
-        } else {
-            TouchInput.setCursor('pointer');
-        }
-       }
+      //  if (Input.isTriggered('#n')) { 
+      //   const toggleHud = $gameSwitches.value(1600);
+      //   $gameSwitches.setValue(1600, !toggleHud);
+      //   $gameTemp.reserveCommonEvent(307);
+      //   if (toggleHud) {
+      //       document.body.style.cursor = 'none';
+      //   } else {
+      //       TouchInput.setCursor('pointer');
+      //   }
+      //  }
 
       //  if (Input.isTriggered('#b')) { 
       //   for(var i=1; i<=$gameVariables.value(334);i++) {

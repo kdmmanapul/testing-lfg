@@ -4240,8 +4240,8 @@ function Skill_Sequencer() {
 			} else if (!$gameSystem._prgMapOpened && !$gameScreen.picture(50)) {
 				SceneManager.push(Scene_GameEnd);
 			}
-		} else if (Input.isTriggered('#c')) PKD_MI.openOrCloseInventory();
-		else if (Input.isTriggered('#v')) SceneManager.push(Scene_Skill);
+		} // else if (Input.isTriggered('#c')) PKD_MI.openOrCloseInventory();
+		// else if (Input.isTriggered('#v')) SceneManager.push(Scene_Skill);
 	};
 
 	Game_Map.prototype.compressBattlers = function () {
