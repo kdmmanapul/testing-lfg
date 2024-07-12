@@ -5604,6 +5604,7 @@ function Game_CharacterAgro() {
 				if ($gameSystem.absKeys()[6].skillId != 146 && this.battler().isStateAffected(73)) this.battler().removeState(73);
 			}
 		} else if (this.battler().isAvoid()) {
+			PointSystem.addPoints(5);
 			if (this.battler().isWtypeEquipped(3)) {
 				if (this._aStack == 0 && (TouchInput.isPressed() || Input.isPressed('$L2')) && TouchInput._pressedTime < 10) {
 					this._tpTimer = 50 * (1 - this.battler().tpt / 100);
@@ -5881,9 +5882,9 @@ function Game_CharacterAgro() {
 									this._aMaxStack = stacking.length;
 									var skill = Number(stacking[this._aStack]);
 									var lastSkill = this._aStack == 0 ? skill : Number(stacking[this._aStack - 1]);
-									console.log(stacking, this._aMaxStack, skill, lastSkill)
+									// console.log(stacking, this._aMaxStack, skill, lastSkill)
 									if (this.canUseSkill(lastSkill)) {
-										console.log(skill, 'yes')
+										// console.log(skill, 'yes')
 										this.useSkill(skill);
 										if (this._aStack > stacking.length - 1) {
 											this._aStack = 0;
