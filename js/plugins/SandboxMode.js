@@ -24,7 +24,7 @@ document.addEventListener('mousemove', function(event) {
       var button = new Sprite_Button();
       button.bitmap = ImageManager.loadSystem('IconSet');
       // Choose a different icon by adjusting these values
-      var iconIndex = 632; // Change this to the index of the icon you want
+      var iconIndex = 798; // Next icon index after 632
       var sx = iconIndex % 16 * 32;
       var sy = Math.floor(iconIndex / 16) * 32;
       button.setFrame(sx, sy, 32, 32); 
