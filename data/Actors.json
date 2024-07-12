@@ -1,4 +1,4 @@
 [
 null,
-{"id":1,"battlerName":"","characterIndex":0,"characterName":"@ARune-Default","classId":1,"equips":[33,1,17,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"Harold","nickname":"","note":"불 - 데미지밸런스 높음, 크리데미지 2배\n얼음 - 방어관련\n바람 - 버프, 스테미나\n번개 - 데미지밸런스 낮음, 크리데미지 2.5배\n\n","profile":""}
+{"id":1,"battlerName":"","characterIndex":0,"characterName":"@ARune-Default","classId":1,"equips":[33,1,17,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"Player","nickname":"","note":"불 - 데미지밸런스 높음, 크리데미지 2배\n얼음 - 방어관련\n바람 - 버프, 스테미나\n번개 - 데미지밸런스 낮음, 크리데미지 2.5배\n\n","profile":""}
 ]

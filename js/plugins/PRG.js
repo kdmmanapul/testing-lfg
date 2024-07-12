@@ -1678,8 +1678,8 @@ var PRG = PRG || {}; //PRG main object
 			}
 		}
 
-		console.log(mapId, xMap, yMap, 'map x y')
-		console.log($gameMap._mapId, 'current map')
+		// console.log(mapId, xMap, yMap, 'map x y')
+		// console.log($gameMap._mapId, 'current map')
 		$gameSelfSwitches.clear();
 		$gameSystem.clearCustomEvents($gameMap._mapId)
 		$gameVariables.setValue(321, $gameVariables.value(321) + 5);

@@ -19,6 +19,54 @@ document.addEventListener('mousemove', function(event) {
     AudioManager.bgsVolume = 20;
     AudioManager.meVolume = 20;
     AudioManager.seVolume = 20;
+
+    function createFullscreenButton() {
+      var button = new Sprite_Button();
+      button.bitmap = ImageManager.loadSystem('IconSet');
+      // Choose a different icon by adjusting these values
+      var iconIndex = 632; // Change this to the index of the icon you want
+      var sx = iconIndex % 16 * 32;
+      var sy = Math.floor(iconIndex / 16) * 32;
+      button.setFrame(sx, sy, 32, 32); 
+
+      button.x = Graphics.width - 40;
+      button.y = 10;
+      button.visible = true;
+      button.z = 9999; 
+  
+      button.setClickHandler(function() {
+          if (!document.fullscreenElement) {
+              if (document.documentElement.requestFullscreen) {
+                  document.documentElement.requestFullscreen();
+              }
+          } else {
+              if (document.exitFullscreen) {
+                  document.exitFullscreen();
+              }
+          }
+      });
+  
+      return button;
+    }
+    
+    // Extend Scene_Map to include the fullscreen button
+    var _Scene_Map_createAllWindows = Scene_Map.prototype.createAllWindows;
+    Scene_Map.prototype.createAllWindows = function() {
+        _Scene_Map_createAllWindows.call(this);
+        this._fullscreenButton = createFullscreenButton();
+        this.addChild(this._fullscreenButton);
+    };
+    
+    // Add an update method to ensure the button is always visible and in the correct position
+    var _Scene_Map_update = Scene_Map.prototype.update;
+    Scene_Map.prototype.update = function() {
+        _Scene_Map_update.call(this);
+        if (this._fullscreenButton) {
+            this._fullscreenButton.x = Graphics.width - 40;
+            this._fullscreenButton.y = 10;
+            this._fullscreenButton.visible = true;
+        }
+    };
   
     Scene_Map.prototype.updateMain = function() {
       Alias_Scene_Map_updateMain.call(this);

@@ -67,13 +67,13 @@ var PointSystem = PointSystem || {};
     };
 
     PointSystem.show = function() {
-        console.log('PointSystem.show() called');
+        // console.log('PointSystem.show() called');
         this.isVisible = true;
         this.refreshPointsDisplay();
     };
 
     PointSystem.hide = function() {
-        console.log('PointSystem.hide() called');
+        // console.log('PointSystem.hide() called');
         this.isVisible = false;
         this.refreshPointsDisplay();
     };
