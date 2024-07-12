@@ -164,12 +164,16 @@ Game_Temp.prototype.initialize = function () {
     };
 
     Sprite_MissionPopup.prototype.refresh_icon = function () {
-        var spaceCount = (this._item.name.match(/[ a-z.0-9]/gi) || []).length;
-        this._icon.x = -10 -this._item.name.length * 10 + (spaceCount) * 5;
-        var iconIndex = this._item.iconIndex
-        var sx = iconIndex % 16 * 32;
-        var sy = Math.floor(iconIndex / 16) * 32;
-        this._icon.setFrame(sx, sy, 32, 32);
+        if (this._item && this._item.iconIndex != null) {
+            var spaceCount = (this._item.name.match(/[ a-z.0-9]/gi) || []).length;
+            this._icon.x = -10 -this._item.name.length * 10 + (spaceCount) * 5;
+            var iconIndex = this._item.iconIndex
+            var sx = iconIndex % 16 * 32;
+            var sy = Math.floor(iconIndex / 16) * 32;
+            this._icon.setFrame(sx, sy, 32, 32);
+        } else {
+            this._icon.visible = false;
+        }
     };
 
     Sprite_MissionPopup.prototype.refresh_name = function () {

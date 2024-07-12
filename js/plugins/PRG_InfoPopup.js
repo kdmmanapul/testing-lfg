@@ -206,6 +206,9 @@ Game_Temp.prototype.initialize = function () {
         if (DataManager.isItem(this._item)) {
             var text = String(this._item.description);
             this._text.bitmap.drawTextInfo(text, 0, 30, 368, 80, 'center');
+        }   else if (DataManager.isWeapon(this._item)) {
+            var text = String(this._item.description);
+            this._text.bitmap.drawTextInfo(text, 0, 34, 368, 80, 'center'); 
         } else if (DataManager.isSkill(this._item)) {
             var level = this._item.id % 5;
             if (level == 0) level = 5;

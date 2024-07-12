@@ -1193,6 +1193,29 @@ var PRG = PRG || {}; //PRG main object
 		return relics;
 	}
 
+	PRG.getWeaponSelection = function(num, rarity) {
+		num = num || 3; // Default to 3 weapons if not specified
+		rarity = rarity || 1; // Default to rarity 1 if not specified
+	
+		var weapons = [];
+		var weaponList = this.data.weapon[rarity - 1];
+	
+		// If we don't have enough weapons of the specified rarity, look for higher rarities
+		while (weapons.length < num && rarity <= 4) {
+			weaponList = this.data.weapon[rarity - 1];
+			
+			while (weapons.length < num && weaponList.length > 0) {
+				var index = Math.floor(Math.random() * weaponList.length);
+				var weaponId = weaponList.splice(index, 1)[0];
+				weapons.push(weaponId);
+			}
+	
+			rarity++;
+		}
+	
+		return weapons;
+	};
+
     /* 상자 아이템 여기서 뽑아쓸것
     switch (type) {
         case 'weapon':

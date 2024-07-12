@@ -547,7 +547,7 @@ Game_Custom_Event.prototype.constructor = Game_Custom_Event;
 				item = $dataWeapons[id];
                 item.type = 1;
                 item._undefinedItem = true;
-                $gameMap.copyChestItemFrom(1, 44, item, this.x, this.y, false);
+                $gameMap.copyChestItemFrom(1, 187, item, this.x, this.y, false);
                 break;
 			case 'armor':
 				var id = PRG.getArmorId(rarity);

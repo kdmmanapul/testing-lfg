@@ -2061,7 +2061,7 @@ Actor_Hud.prototype.refresh_states = function () { //다시켰을때 초기값 �
 			this._state_icons[i]._stateInfo.visible = false;
 			this._state_icons[i]._stateInfo._waitCount = 0;
 			this._state_icons[i].addChild(this._state_icons[i]._stateInfo);
-			this._state_icons[i].x = this._pos_x + Moghunter.ahud_states_pos_x + i * 32 - 20;
+			this._state_icons[i].x = this._pos_x + Moghunter.ahud_states_pos_x + i * 32 - 10;
 			this._state_icons[i].y = this._pos_y + Moghunter.ahud_states_pos_y - 15;
 			this._state_icons[i].visible = true;
 			var sx = currentState.iconIndex % 16 * 32;
@@ -2081,7 +2081,7 @@ Actor_Hud.prototype.refresh_states = function () { //다시켰을때 초기값 �
 			buff._stateInfo._waitCount = 0;
 			buff.addChild(buff._stateInfo);
 			buff.x = this._pos_x + Moghunter.ahud_states_pos_x + i * 32;
-			buff.y = this._pos_y + Moghunter.ahud_states_pos_y - 85;
+			buff.y = this._pos_y + Moghunter.ahud_states_pos_y - 105;
 			buff.visible = true;
 			buff.animTrigger = false;
 			buff.id = this._battler._stateBuffs[i];
@@ -2100,8 +2100,8 @@ Actor_Hud.prototype.refresh_states = function () { //다시켰을때 초기값 �
             debuff._stateInfo.visible = false;
             debuff._stateInfo._waitCount = 0;
             debuff.addChild(debuff._stateInfo);
-            debuff.x = this._pos_x + Moghunter.ahud_states_pos_x - i * 32 - 25;
-            debuff.y = this._pos_y + Moghunter.ahud_states_pos_y - 85;
+            debuff.x = this._pos_x + Moghunter.ahud_states_pos_x + i * 32;
+            debuff.y = this._pos_y + Moghunter.ahud_states_pos_y - 140;
             debuff.visible = true;
             debuff.animTrigger = false;
             debuff.id = this._battler._stateDebuffs[i];
@@ -2125,7 +2125,7 @@ Actor_Hud.prototype.refresh_newStates = function () {
         buff._stateInfo._waitCount = 0;
         buff.addChild(buff._stateInfo);
         buff.x = this._pos_x + Moghunter.ahud_states_pos_x + this._stateBuffs.children.length * 32;
-        buff.y = this._pos_y + Moghunter.ahud_states_pos_y - 85;
+        buff.y = this._pos_y + Moghunter.ahud_states_pos_y - 105;
         buff.visible = true;
         buff.animTrigger = false;
         buff.id = this._newState.state.id;
@@ -2143,8 +2143,8 @@ Actor_Hud.prototype.refresh_newStates = function () {
         debuff._stateInfo.visible = false;
         debuff._stateInfo._waitCount = 0;
         debuff.addChild(debuff._stateInfo);
-        debuff.x = this._pos_x + Moghunter.ahud_states_pos_x - this._stateDebuffs.children.length * 32 - 25;
-        debuff.y = this._pos_y + Moghunter.ahud_states_pos_y - 85;
+        debuff.x = this._pos_x + Moghunter.ahud_states_pos_x + this._stateDebuffs.children.length * 32;
+        debuff.y = this._pos_y + Moghunter.ahud_states_pos_y - 140;
         debuff.visible = true;
         debuff.animTrigger = false;
         debuff.id = this._newState.state.id;
@@ -2168,7 +2168,7 @@ Actor_Hud.prototype.refresh_newStates = function () {
 	// Changed Default
     // this._state_icons[i].x = this._pos_x + Moghunter.ahud_states_pos_x + i * 32;
     // this._state_icons[i].y = this._pos_y + Moghunter.ahud_states_pos_y;
-	this._state_icons[i].x = this._pos_x + Moghunter.ahud_states_pos_x + i * 32 - 20;
+	this._state_icons[i].x = this._pos_x + Moghunter.ahud_states_pos_x + i * 32 - 10;
     this._state_icons[i].y = this._pos_y + Moghunter.ahud_states_pos_y - 15;
 
     this._state_icons[i]._iconIndex = this._newState.state.iconIndex;
@@ -2230,7 +2230,7 @@ Actor_Hud.prototype.update_debuffs = function (debuff) {
 	if (duration <= 0 || !duration) {
 		this._stateDebuffs.removeChild(debuff);
 		for (var i = 0; i < this._stateDebuffs.children.length; i++) {
-			this._stateDebuffs.children[i].x = this._pos_x + Moghunter.ahud_states_pos_x - i * 32 - 25;
+			this._stateDebuffs.children[i].x = this._pos_x + Moghunter.ahud_states_pos_x - i * 32;
 		}
 	} else if (duration <= 180) {
 		if (!debuff.animTrigger) {

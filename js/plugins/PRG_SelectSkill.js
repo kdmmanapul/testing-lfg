@@ -34,6 +34,10 @@ Scene_SelectSkill.prototype.initialize = function () {
 				this._newSkillNum = skillMode[1];
 				this._rarity = skillMode[2];
 			}
+			else if (this._mode == 'weapon') {
+				this._newSkillNum = skillMode[1];
+				this._rarity = skillMode[2];
+			}
 		} else this._mode = skillMode[0].toLowerCase();
 	} else this._mode = 'levelup';
 }
@@ -58,6 +62,14 @@ Scene_SelectSkill.prototype.refreshMode = function () {
 			this._mode = skillMode[0].toLowerCase();
 			if (this._mode == 'levelup') this._newSkillNum = skillMode[1];
 			else if (this._mode == 'discard') this._discardNewSkillId = skillMode[1];
+			else if (this._mode == 'relic') {
+				this._newSkillNum = skillMode[1];
+				this._rarity = skillMode[2];
+			}
+			else if (this._mode == 'weapon') {
+				this._newSkillNum = skillMode[1];
+				this._rarity = skillMode[2];
+			}
 		} else this._mode = skillMode[0].toLowerCase();
 	} else this._mode = 'levelup';
 	this.create();
@@ -88,6 +100,10 @@ Scene_SelectSkill.prototype.createMessageWindow = function () {
 		}
 		case 'relic': {
 			this._messageWindow.drawText('Choose a new relic!', 0, 0, width, 'center');
+			break
+        }
+		case 'weapon': {
+			this._messageWindow.drawText('Choose a new weapon!', 0, 0, width, 'center');
 			break
         }
 		default: {
@@ -126,7 +142,12 @@ Scene_SelectSkill.prototype.createSkillWindow = function () {
 		}
 		case 'relic': {
 			skills = PRG.getRelics(this._newSkillNum, this._rarity);
+			break;
 		}
+		case 'weapon': {
+			skills = PRG.getWeaponSelection(this._newSkillNum, this._rarity);
+			break;
+        }
 		case 'skillup': {//todo
 			break
 		}
@@ -216,6 +237,27 @@ Scene_SelectSkill.prototype.onSkillOk = function () {
             }
 			$gamePlayer.battler().addState(skill)
 			// $gameTemp._infoPopup.push($dataStates[skill])
+			break;
+        }
+		case 'weapon': {
+			var weaponId = this._skillWindow._skills[this._skillWindow.index()];
+			var actor = $gameParty.leader();
+			var oldWeapon = actor.equips()[0];
+			if (oldWeapon) {
+				actor.changeEquip(0, null);
+				$gameParty.gainItem(oldWeapon, 1);
+			}
+			$gameParty.gainItem($dataWeapons[weaponId], 1);
+			actor.changeEquip(0, $dataWeapons[weaponId]);
+			// You might want to add some visual or audio feedback here
+
+			$gameTemp._infoPopup.push($dataWeapons[weaponId]);
+			// QABSManager.startPopup('QABS-EQUIP', {
+			// 	x: $gamePlayer.cx(),
+			// 	y: $gamePlayer.cy(),
+			// 	string: 'New Weapon Equipped!',
+			// 	duration: 80
+			// });
 			break;
         }
 		case 'skillup': {//Todo
@@ -324,7 +366,12 @@ Window_SelectSkill.prototype.drawItem = function (index) {
 		this.drawIconPlusZoom(skill.iconIndex, fx, fy, 2);
 
 		this.drawName(skill, rect.x, 106);
-
+	} else if (this._mode == 'weapon') {
+		var weapon = $dataWeapons[this._skills[index]];
+		var fx = rect.x + (this.itemWidth() - 72) / 2;
+		var fy = rect.y + this.spacing() / 2 + 10;
+		this.drawIconPlusZoom(weapon.iconIndex, fx, fy, 2);
+		this.drawName(weapon, rect.x, 106);
 	} else {
 		var skill = $dataSkills[this._skills[index]];
 		var fx = rect.x + (this.itemWidth() - 72) / 2;
@@ -364,14 +411,14 @@ Window_SelectSkill.prototype.drawIconPlusZoom = function (iconIndex, x, y, zoom)
 	this.contents._context.imageSmoothingEnabled = true;
 };
 
-Window_SelectSkill.prototype.drawName = function (skill, x, y) {
-	var name = skill.name
-	if (this._mode == 'relic') {
+Window_SelectSkill.prototype.drawName = function (item, x, y) {
+	var name = item.name
+	if (this._mode == 'relic' || this._mode == 'weapon') {
 		this.contents.fontSize = 18;
-		this.changeTextColor(this.rarityColor(skill));
+		this.changeTextColor(this.rarityColor(item));
 		this.drawText(name, x - 6, y, this.itemWidth(), 'center'); //name.length+this.fontSize
 	} else {
-		if ((skill.id - 1) % 5 > 0) {
+		if ((item.id - 1) % 5 > 0) {
 			var start = name.indexOf(' ')
 			var lv = name.substring(0, start);
 			name = name.substring(start + 1, name.length);
@@ -384,7 +431,7 @@ Window_SelectSkill.prototype.drawName = function (skill, x, y) {
 				var start = name.indexOf(' ')
 				name = name.substring(start + 1, name.length);
 				this.contents.fontSize = 18;
-				this.changeTextColor(this.rarityColor(skill));
+				this.changeTextColor(this.rarityColor(item));
 				this.drawText(name, x - 6, y, this.itemWidth(), 'center'); //name.length+this.fontSize
 			}
 		}
@@ -392,10 +439,12 @@ Window_SelectSkill.prototype.drawName = function (skill, x, y) {
 };
 
 Window_SelectSkill.prototype.updateHelp = function () {
-	console.log(this._mode)
 	if (this._mode == 'relic') {
 		var skill = $dataStates[this._skills[this.index()]];
 		this.setHelpWindowItem(skill);
+	} else if (this._mode == 'weapon') {
+		var weapon = $dataWeapons[this._skills[this.index()]];
+		this.setHelpWindowItem(weapon);
 	} else {
 		var skill = $dataSkills[this._skills[this.index()]];
 		this.setHelpWindowItem(skill);
@@ -445,6 +494,14 @@ Window_skillHelp.prototype.setText = function (item) {
 			this._name = name;
 			this.refresh();
 		}
+	} else if (this._mode == 'weapon') {
+		var text = item ? item.description : '';
+		var name = item ? item.name : '';
+		if (this._text !== text) {
+			this._text = text;
+			this._name = name;
+			this.refresh();
+		}
 	} else {
 		if ((item.id - 1) % 5 > 0) {
 			var text = item ? item.message2.split('\\n')[(item.id - 2) % 5] : '';// item && $gameSwitches._data[1000 + item.id + 1]? item.message2.split('\\n')[0] : '???';
@@ -472,6 +529,8 @@ Window_skillHelp.prototype.clear = function () {
 Window_skillHelp.prototype.setItem = function (item) {
 	this._item = item;
 	if (item && item.maxTurns != null) this._mode = 'relic';
+	else if (item && item.wtypeId != null) this._mode = 'weapon';
+	else this._mode = 'skill';
 	this.setText(item ? item : '');
 };
 
@@ -479,7 +538,7 @@ Window_skillHelp.prototype.refresh = function () {
 	this.contents.clear();
 	var x, y;
 
-	if (this._mode == 'relic') {
+	if (this._mode == 'relic' || this._mode == 'weapon') {
 		if (this._text) {
 			var textWidthDx = this._text.split('\n');
 			this.resetFontSettings();
