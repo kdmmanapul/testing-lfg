@@ -252,12 +252,7 @@ Scene_SelectSkill.prototype.onSkillOk = function () {
 			// You might want to add some visual or audio feedback here
 			SoundManager.playEquip();
 			$gameTemp._infoPopup.push($dataWeapons[weaponId]);
-			// QABSManager.startPopup('QABS-EQUIP', {
-			// 	x: $gamePlayer.cx(),
-			// 	y: $gamePlayer.cy(),
-			// 	string: 'New Weapon Equipped!',
-			// 	duration: 80
-			// });
+			$gameTemp.reserveCommonEvent(303);
 			break;
         }
 		case 'skillup': {//Todo
@@ -270,7 +265,7 @@ Scene_SelectSkill.prototype.onSkillOk = function () {
 	}
 	if (PRG._selectSkillMode.length > 0) this.refreshMode();
 	else {
-		if (this._mode != 'relic') {
+		if (this._mode != 'relic' && this._mode != 'weapon') {
 			$gameTemp.reserveCommonEvent(18);
 			if (!$gameSwitches.value(31) && $gameVariables._data[104] > 0) $gameTemp.reserveCommonEvent(55);
 		}
