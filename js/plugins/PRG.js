@@ -1207,7 +1207,9 @@ var PRG = PRG || {}; //PRG main object
 			while (weapons.length < num && weaponList.length > 0) {
 				var index = Math.floor(Math.random() * weaponList.length);
 				var weaponId = weaponList.splice(index, 1)[0];
-				weapons.push(weaponId);
+				if (weaponId > 16) {  // Only add weapons with ID > 16
+					weapons.push(weaponId);
+				}
 			}
 	
 			rarity++;
