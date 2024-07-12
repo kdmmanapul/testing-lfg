@@ -43466,7 +43466,7 @@
     "rows": 13,
     "anchorX": 0.5,
     "anchorY": 1,
-    "sampleImg": "C:\\Users\\USER\\Desktop\\Game Development [Games]\\testing-lfg\\img\\characters\\@ARune-Skeleton.png",
+    "sampleImg": "C:\\Users\\USER\\Desktop\\Game Development [Games]\\testing-lfg\\img\\characters\\@ARune-EdgeBow.png",
     "poses": {
       "move1": {
         "name": "move1",
@@ -44096,13 +44096,13 @@
         "speed": 4,
         "adjust": false,
         "pattern": [
-          105,
-          106,
-          107,
-          108,
-          109,
-          110,
-          111
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356
         ]
       },
       "btk2": {
@@ -44110,13 +44110,13 @@
         "speed": 4,
         "adjust": false,
         "pattern": [
-          315,
-          316,
-          317,
-          318,
-          319,
-          320,
-          321
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391
         ]
       },
       "btk3": {
@@ -44124,13 +44124,13 @@
         "speed": 4,
         "adjust": false,
         "pattern": [
-          63,
-          64,
-          65,
-          66,
-          67,
-          68,
-          69
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349
         ]
       },
       "btk4": {
@@ -44138,13 +44138,13 @@
         "speed": 4,
         "adjust": false,
         "pattern": [
-          273,
-          274,
-          275,
-          276,
-          277,
-          278,
-          279
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384
         ]
       },
       "btk6": {
@@ -44152,13 +44152,13 @@
         "speed": 4,
         "adjust": false,
         "pattern": [
-          231,
-          232,
-          233,
-          234,
-          235,
-          236,
-          237
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398
         ]
       },
       "btk7": {
@@ -44166,13 +44166,13 @@
         "speed": 4,
         "adjust": false,
         "pattern": [
-          147,
-          148,
-          149,
-          150,
-          151,
-          152,
-          153
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363
         ]
       },
       "btk8": {
@@ -44180,13 +44180,13 @@
         "speed": 4,
         "adjust": false,
         "pattern": [
-          189,
-          190,
-          191,
-          192,
-          193,
-          194,
-          195
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370
         ]
       },
       "btk9": {
@@ -44194,13 +44194,13 @@
         "speed": 4,
         "adjust": false,
         "pattern": [
-          21,
-          22,
-          23,
-          24,
-          25,
-          26,
-          27
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342
         ]
       },
       "dead1": {
@@ -44604,198 +44604,6 @@
           22,
           23,
           24,
-          25,
-          26,
-          27
-        ]
-      },
-      "btkmove1": {
-        "name": "btkmove1",
-        "speed": 6,
-        "adjust": true,
-        "pattern": [
-          84,
-          85,
-          86,
-          87,
-          88,
-          89,
-          90
-        ]
-      },
-      "btkmove2": {
-        "name": "btkmove2",
-        "speed": 6,
-        "adjust": true,
-        "pattern": [
-          294,
-          295,
-          296,
-          297,
-          298,
-          299,
-          300
-        ]
-      },
-      "btkmove3": {
-        "name": "btkmove3",
-        "speed": 6,
-        "adjust": true,
-        "pattern": [
-          42,
-          43,
-          44,
-          45,
-          46,
-          47,
-          48
-        ]
-      },
-      "btkmove4": {
-        "name": "btkmove4",
-        "speed": 6,
-        "adjust": true,
-        "pattern": [
-          252,
-          253,
-          254,
-          255,
-          256,
-          257,
-          258
-        ]
-      },
-      "btkmove6": {
-        "name": "btkmove6",
-        "speed": 6,
-        "adjust": true,
-        "pattern": [
-          210,
-          211,
-          212,
-          213,
-          214,
-          215,
-          216
-        ]
-      },
-      "btkmove7": {
-        "name": "btkmove7",
-        "speed": 6,
-        "adjust": true,
-        "pattern": [
-          126,
-          127,
-          128,
-          129,
-          130,
-          131,
-          132
-        ]
-      },
-      "btkmove8": {
-        "name": "btkmove8",
-        "speed": 6,
-        "adjust": true,
-        "pattern": [
-          168,
-          169,
-          170,
-          171,
-          172,
-          173,
-          174
-        ]
-      },
-      "btkmove9": {
-        "name": "btkmove9",
-        "speed": 6,
-        "adjust": true,
-        "pattern": [
-          0,
-          1,
-          2,
-          3,
-          4,
-          5,
-          6
-        ]
-      },
-      "btkidle1": {
-        "name": "btkidle1",
-        "speed": 4,
-        "adjust": false,
-        "pattern": [
-          109,
-          110,
-          111
-        ]
-      },
-      "btkidle2": {
-        "name": "btkidle2",
-        "speed": 4,
-        "adjust": false,
-        "pattern": [
-          319,
-          320,
-          321
-        ]
-      },
-      "btkidle3": {
-        "name": "btkidle3",
-        "speed": 4,
-        "adjust": false,
-        "pattern": [
-          67,
-          68,
-          69
-        ]
-      },
-      "btkidle4": {
-        "name": "btkidle4",
-        "speed": 4,
-        "adjust": false,
-        "pattern": [
-          277,
-          278,
-          279
-        ]
-      },
-      "btkidle6": {
-        "name": "btkidle6",
-        "speed": 4,
-        "adjust": false,
-        "pattern": [
-          235,
-          236,
-          237
-        ]
-      },
-      "btkidle7": {
-        "name": "btkidle7",
-        "speed": 4,
-        "adjust": false,
-        "pattern": [
-          151,
-          152,
-          153
-        ]
-      },
-      "btkidle8": {
-        "name": "btkidle8",
-        "speed": 4,
-        "adjust": false,
-        "pattern": [
-          193,
-          194,
-          195
-        ]
-      },
-      "btkidle9": {
-        "name": "btkidle9",
-        "speed": 4,
-        "adjust": false,
-        "pattern": [
           25,
           26,
           27
@@ -46770,6 +46578,230 @@
           4,
           5,
           6
+        ]
+      },
+      "btkmove1": {
+        "name": "btkmove1",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356
+        ]
+      },
+      "btkmove2": {
+        "name": "btkmove2",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391
+        ]
+      },
+      "btkmove3": {
+        "name": "btkmove3",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349
+        ]
+      },
+      "btkmove4": {
+        "name": "btkmove4",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384
+        ]
+      },
+      "btkmove6": {
+        "name": "btkmove6",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398
+        ]
+      },
+      "btkmove7": {
+        "name": "btkmove7",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363
+        ]
+      },
+      "btkmove8": {
+        "name": "btkmove8",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370
+        ]
+      },
+      "btkmove9": {
+        "name": "btkmove9",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342
+        ]
+      },
+      "btkidle1": {
+        "name": "btkidle1",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356
+        ]
+      },
+      "btkidle2": {
+        "name": "btkidle2",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391
+        ]
+      },
+      "btkidle3": {
+        "name": "btkidle3",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349
+        ]
+      },
+      "btkidle4": {
+        "name": "btkidle4",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384
+        ]
+      },
+      "btkidle6": {
+        "name": "btkidle6",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398
+        ]
+      },
+      "btkidle7": {
+        "name": "btkidle7",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363
+        ]
+      },
+      "btkidle8": {
+        "name": "btkidle8",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370
+        ]
+      },
+      "btkidle9": {
+        "name": "btkidle9",
+        "speed": 4,
+        "adjust": false,
+        "pattern": [
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342
         ]
       }
     },

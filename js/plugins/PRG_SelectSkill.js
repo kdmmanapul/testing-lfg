@@ -249,6 +249,14 @@ Scene_SelectSkill.prototype.onSkillOk = function () {
 			}
 			$gameParty.gainItem($dataWeapons[weaponId], 1);
 			actor.changeEquip(0, $dataWeapons[weaponId]);
+			// Change character if weaponId is between 17 and 31
+			if (weaponId >= 17 && weaponId <= 31) {
+				actor.setCharacterImage("@ARune-DefaultBow", 1);
+				$gamePlayer.refresh()
+			} else {
+				actor.setCharacterImage("@ARune-Default", 1);
+				$gamePlayer.refresh()
+			}
 			// You might want to add some visual or audio feedback here
 			SoundManager.playEquip();
 			$gameTemp._infoPopup.push($dataWeapons[weaponId]);
